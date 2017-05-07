@@ -9,6 +9,4 @@ def contains_magic_number(list1, magic_number):
 
 
 if __name__ == "__main__":
-    # ref https://docs.quantifiedcode.com/python-anti-patterns/correctness/not_using_else_in_a_loop.html
-    # ref https://docs.quantifiedcode.com/python-anti-patterns/correctness/else_clause_on_loop_without_a_break_statement.html
-    contains_magic_number(range(10), 5)
+    contains_magic_number(range(10), 3)

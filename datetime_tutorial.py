@@ -1,4 +1,5 @@
 import datetime
+import time
 from calendar import monthrange
 
 if __name__ == "__main__":
@@ -37,3 +38,14 @@ if __name__ == "__main__":
     print('first_day: {}'.format(first_day))
     # number of days in month
     print('num_days: {}'.format(num_days))
+
+    # datetime -> timestamp
+    # time.mktime(t)
+    # Its argument is the struct_time or full 9-tuple and it returns a floating point number,
+    # for compatibility with time().
+    timestamp = time.mktime(now.timetuple())
+    print('timestamp : {}'.format(timestamp))
+
+    # timestamp -> datetime
+    datetime_date = datetime.datetime.fromtimestamp(timestamp)
+    print('datetime : {}'.format(datetime_date))

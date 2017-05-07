@@ -6,6 +6,8 @@ Python Notes 學習筆記
 
 有些是網路上找的範例，然後自己再修修改改，或是去參考一些  Python-Patterns , Python Anti-Patterns 。
 
+範例程式會盡量遵守 [PEP 8 -- Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/)
+
 歡迎大家一起討論～
 
 筆記會持續更新～
@@ -15,7 +17,7 @@ Python Notes 學習筆記
 
 [check_is_in_list.py](https://github.com/twtrubiks/python-notes/blob/master/check_is_in_list.py) -  檢查目標是否在 list 裡
 
-[datetime_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/datetime_tutorial.py) - datetime , monthrange
+[datetime_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/datetime_tutorial.py) - datetime , monthrange , timestamp
 
 [defaultdict_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/defaultdict_tutorial.py) - defaultdict
 
@@ -47,7 +49,7 @@ Python Notes 學習筆記
 
 [list_index.py](https://github.com/twtrubiks/python-notes/blob/master/list_index.py) - list index()
 
-[loop_if_else_break.py](https://github.com/twtrubiks/python-notes/blob/master/) -
+[loop_if_else_break.py](https://github.com/twtrubiks/python-notes/blob/master/loop_if_else_break.py) - if not add break , will run more meaningless loop
 
 [map.py](https://github.com/twtrubiks/python-notes/blob/master/map.py) - map
 
@@ -77,9 +79,13 @@ Python Notes 學習筆記
 
 [use_unpacking.py](https://github.com/twtrubiks/python-notes/blob/master/use_unpacking.py) - use unpacking
 
-[Using_a_mutable_default_value_as_an_argument.py](https://github.com/twtrubiks/python-notes/blob/master/)
+[using_a_mutable_default_value_as_an_argument.py](https://github.com/twtrubiks/python-notes/blob/master/using_a_mutable_default_value_as_an_argument.py) -  Be careful with mutable default arguments ( lists or dictionaries )
 
 [zip_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/zip_tutorial.py) - zip
+
+[staticmethod_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/staticmethod_tutorial.py) - staticmethod tutorial
+
+[classmethod_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/classmethod_tutorial.py) - classmethod tutorial
 
 ## 如何使用
 基本上，每個 python 檔案都可以直接執行。
