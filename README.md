@@ -1,7 +1,9 @@
 # python-notes
+
 Python Notes 學習筆記 📝
 
 ## 介紹
+
 有時候想找一個東西（寫法），但當下卻忘記關鍵字，所以整理一篇學習筆記，要找資料的時候也比較方便。
 
 有些是網路上找的範例，然後自己再修修改改，或是去參考一些  Python-Patterns , Python Anti-Patterns 。
@@ -13,6 +15,7 @@ Python Notes 學習筆記 📝
 筆記會持續更新～
 
 ## 筆記
+
 [attribute_obj.py](https://github.com/twtrubiks/python-notes/blob/master/attribute_obj.py) - setattr() , getattr() , hasattr()
 
 [check_is_in_list.py](https://github.com/twtrubiks/python-notes/blob/master/check_is_in_list.py) -  檢查目標是否在 list 裡
@@ -71,6 +74,8 @@ Python Notes 學習筆記 📝
 
 [sorted.py](https://github.com/twtrubiks/python-notes/blob/master/sorted.py) - sorted
 
+[iter_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/iter_tutorial.py) - iter tutorial
+
 [_str_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_str_tutorial.py) - __str__  tutorial
 
 [strtobool_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/strtobool_tutorial.py) - strtobool
@@ -88,6 +93,7 @@ Python Notes 學習筆記 📝
 [classmethod_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/classmethod_tutorial.py) - classmethod tutorial
 
 ## 如何使用
+
 基本上，每個 python 檔案都可以直接執行。
 > python  xxxx.py
 
@@ -96,12 +102,15 @@ Python Notes 學習筆記 📝
 > python  defaultdict_tutorial.py
 
 ## 執行環境
+
 * Python 3.4.3
 
 ## Reference
+
 * [python-anti-patterns](https://docs.quantifiedcode.com/python-anti-patterns/index.html)
 * [python-patterns](https://github.com/faif/python-patterns)
 * [python-programming](https://www.programiz.com/python-programming)
 
 ## License
+
 MIT license
