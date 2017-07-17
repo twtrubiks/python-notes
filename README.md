@@ -24,9 +24,13 @@ Python Notes 學習筆記 📝
 
 [defaultdict_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/defaultdict_tutorial.py) - defaultdict
 
+[namedtuple_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/namedtuple_tutorial.py) - namedtuple
+
 [dictionary_using_items.py](https://github.com/twtrubiks/python-notes/blob/master/dictionary_using_items.py) - dictionary.items()
 
 [dictionary_get.py](https://github.com/twtrubiks/python-notes/blob/master/dictionary_get.py) - dictionary get()
+
+[tuple_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/tuple_tutorial.py) - tuple
 
 [eafp.py](https://github.com/twtrubiks/python-notes/blob/master/eafp.py) - EAFP coding style
 
@@ -91,6 +95,10 @@ Python Notes 學習筆記 📝
 [staticmethod_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/staticmethod_tutorial.py) - staticmethod tutorial
 
 [classmethod_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/classmethod_tutorial.py) - classmethod tutorial
+
+[decorator_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decorator_tutorial.py) - decorator 裝飾器
+
+[context_manager_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/context_manager_tutorial.py) -  context manager
 
 ## 如何使用
 
