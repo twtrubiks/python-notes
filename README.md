@@ -80,6 +80,8 @@ Python Notes 學習筆記 📝
 
 [iter_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/iter_tutorial.py) - iter tutorial
 
+[__iter__tutorial](https://github.com/twtrubiks/python-notes/blob/master/__iter__tutorial.py) - __iter__tutorial
+
 [_str_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_str_tutorial.py) - __str__  tutorial
 
 [strtobool_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/strtobool_tutorial.py) - strtobool
