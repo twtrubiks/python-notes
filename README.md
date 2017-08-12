@@ -102,6 +102,8 @@ Python Notes 學習筆記 📝
 
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
+[_len_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_len_tutorial.p) - _len_tutorial
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
