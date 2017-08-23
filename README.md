@@ -106,6 +106,8 @@ Python Notes 學習筆記 📝
 
 [_len_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_len_tutorial.p) - _len_tutorial
 
+[decimal_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decimal_tutorial.py) - decimal tutorial
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
