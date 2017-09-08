@@ -17,6 +17,7 @@ if __name__ == "__main__":
     # print('{:d}'.format('42')) # error
 
     print('{:f}'.format(3.141592653589793))
+    print('{:.2f}'.format(3.141592653589793))
     # print('{:d}'.format(3.141592653589793)) # error
 
     data_dic = {
