@@ -108,9 +108,17 @@ Python Notes 學習筆記 📝
 
 [decimal_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decimal_tutorial.py) - decimal tutorial
 
-[sum_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/sum_tutorial.py) -sum_tutorial.py
+[copy_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/copy_tutorial.py) - copy_tutorial
 
-[copy_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/copy_tutorial.py) - copy_tutorial.py
+[sum_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/sum_tutorial.py) -sum_tutorial
+
+[built-in-functions_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/built-in-functions_tutorial.py) - Built-in Functions tutorial
+
+[reduce_use_for_loop_tutorial_1.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_1.py) - reduce_use_for_loop_tutorial_1
+
+[reduce_use_for_loop_tutorial_2.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_2.py) - reduce_use_for_loop_tutorial_2
+
+[nested_loop_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/nested_loop_tutorial.py) -nested_loop_tutorial
 
 ## 如何使用
 
