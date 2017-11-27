@@ -116,9 +116,21 @@ Python Notes 學習筆記 📝
 
 [reduce_use_for_loop_tutorial_1.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_1.py) - reduce_use_for_loop_tutorial_1
 
-[reduce_use_for_loop_tutorial_2.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_2.py) - reduce_use_for_loop_tutorial_2
+[reduce_use_for_loop_tutorial_2.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_2.py) -        reduce_use_for_loop_tutorial_2
 
-[nested_loop_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/nested_loop_tutorial.py) -nested_loop_tutorial
+[nested_loop_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/nested_loop_tutorial.py) - nested_loop_tutorial
+
+[dict.fromkeys_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/dict.fromkeys_tutorial.py) - dict.fromkeys tutorial
+
+[escape_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/escape_tutorial.py) - html.parser ( escape )  tutorial
+
+[pickle_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/pickle_tutorial.py) - pickle tutorial
+
+[zipfile_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/zipfile_tutorial.py) - zipfile tutorial
+
+[unicodedata_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/unicodedata_tutorial.py) - unicodedata ( control character ) tutorial
+
+[translate_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/translate_tutorial.py) -translate tutorial
 
 ## 如何使用
 
