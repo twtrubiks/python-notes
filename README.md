@@ -130,7 +130,9 @@ Python Notes 學習筆記 📝
 
 [unicodedata_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/unicodedata_tutorial.py) - unicodedata ( control character ) tutorial
 
-[translate_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/translate_tutorial.py) -translate tutorial
+[translate_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/translate_tutorial.py) - translate tutorial
+
+[re_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/re_tutorial.py) - re tutorial
 
 ## 如何使用
 
@@ -143,7 +145,7 @@ Python Notes 學習筆記 📝
 
 ## 執行環境
 
-* Python 3.4.3
+* Python 3.6.2
 
 ## Reference
 
