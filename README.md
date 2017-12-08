@@ -54,7 +54,7 @@ Python Notes 學習筆記 📝
 
 [lambda.py](https://github.com/twtrubiks/python-notes/blob/master/lambda.py) - lambda
 
-[list_index.py](https://github.com/twtrubiks/python-notes/blob/master/list_index.py) - list index()
+[list_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/list_tutorial.py) - list tutorial
 
 [loop_if_else_break.py](https://github.com/twtrubiks/python-notes/blob/master/loop_if_else_break.py) - if not add break , will run more meaningless loop
 

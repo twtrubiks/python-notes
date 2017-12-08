@@ -7,6 +7,12 @@ if __name__ == "__main__":
     # index is printed
     print('The index of e: {}'.format(index))
 
+    # list remove
+    del data_list[0]
+    print('data_list:', data_list)
+    data_list.remove('e')
+    print('data_list:', data_list)
+
     # apply
     target_sort = ['2', '1', '3', '8', '0']
     oringin = ['0', '1', '2', '3', '8']
