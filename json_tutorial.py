@@ -21,9 +21,10 @@ if __name__ == "__main__":
         "id": "valore"
     }
 }
-
     '''
     data = json.loads(load_data)
-
     print('data[maps]: {}'.format(data['maps']))
     print('data[masks][id]: {}'.format(data['masks']['id']))
+
+    data_dump = json.dumps(data)
+    print('json.dumps:', data_dump)
