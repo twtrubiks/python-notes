@@ -17,8 +17,10 @@ if __name__ == "__main__":
     # print('{:d}'.format('42')) # error
 
     print('{:f}'.format(3.141592653589793))
-    print('{:.2f}'.format(3.141592653589793))
+    print('{:.2f}'.format(3.141592653589793))  # rounded to two decimal place
     # print('{:d}'.format(3.141592653589793)) # error
+    print('{:0,}'.format(31234.14159))  # Format with commas
+    print('{:0,.2f}'.format(31234.14159))  # rounded to two decimal place + Format with commas
 
     data_dic = {
         'first': 'TWT',
