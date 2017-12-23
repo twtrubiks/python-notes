@@ -30,6 +30,8 @@ Python Notes 學習筆記 📝
 
 [dictionary_get.py](https://github.com/twtrubiks/python-notes/blob/master/dictionary_get.py) - dictionary get()
 
+[dictionary_update.py](https://github.com/twtrubiks/python-notes/blob/master/dictionary_update.py) - dictionary update()
+
 [tuple_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/tuple_tutorial.py) - tuple
 
 [eafp.py](https://github.com/twtrubiks/python-notes/blob/master/eafp.py) - EAFP coding style
