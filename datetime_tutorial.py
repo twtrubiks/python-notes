@@ -22,6 +22,8 @@ if __name__ == "__main__":
     # datetime.datetime.combine
     combine_time = datetime.datetime.combine(datetime.date(2017, 3, 1), datetime.time(18, 23, 50))
     print('combine_time: {}'.format(combine_time))
+    combine_time_2 = datetime.datetime.combine(datetime.date(2017, 3, 1), datetime.time.max)
+    print('combine_time_2: {}'.format(combine_time_2))
 
     # strftime ref. http://strftime.org/
     DATETIME_FORMAT = '%m/%d/%Y %I:%M %p'
