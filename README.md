@@ -142,6 +142,8 @@ Python Notes 學習筆記 📝
 
 [groupby_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/groupby_tutorial.py) - itertools groupby tutorial
 
+[python-decouple-tutorial](https://github.com/twtrubiks/python-notes) - python decouple tutorial
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
