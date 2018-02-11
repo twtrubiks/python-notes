@@ -142,9 +142,9 @@ Python Notes 學習筆記 📝
 
 [groupby_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/groupby_tutorial.py) - itertools groupby tutorial
 
-[python-decouple-tutorial](https://github.com/twtrubiks/python-notes) - python decouple tutorial
+[python-decouple-tutorial](https://github.com/twtrubiks/python-notes/tree/master/python-decouple-tutorial) - python decouple tutorial
 
-[dj_database_url_tutorial](https://github.com/twtrubiks/python-notes) - dj-database-url tutorial ( for django )
+[dj_database_url_tutorial](https://github.com/twtrubiks/python-notes/tree/master/dj_database_url_tutorial) - dj-database-url tutorial ( for django )
 
 ## 如何使用
 

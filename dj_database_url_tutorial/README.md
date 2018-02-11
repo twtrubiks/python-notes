@@ -10,7 +10,9 @@
 
 > pip install dj-database-url
 
-使用方法很簡單，可參考 [settings.py](xxx)
+使用方法很簡單，可參考 tutorial/dj_database_url_tutorial/[settings.py](https://github.com/twtrubiks/python-notes/blob/master/dj_database_url_tutorial/tutorial/dj_database_url_tutorial/settings.py)
+
+( [tutorial](https://github.com/twtrubiks/python-notes/tree/master/dj_database_url_tutorial/tutorial) 是一個很簡單的 django 專案 )
 
 ```python
 # DATABASES = {

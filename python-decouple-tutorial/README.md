@@ -42,7 +42,7 @@ Decouple 選擇的順序如下
 
 3. config 通過參數設定的 default 值，第三順位。
 
-這邊使用一個簡單的範例，可參考 [tutorial.py](xxx)
+這邊使用一個簡單的範例，可參考 [tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/python-decouple-tutorial/tutorial.py)
 
 ```python
 from decouple import config
@@ -58,16 +58,15 @@ if __name__ == "__main__":
     print('PATH', PATH)
 ```
 
-透過上面這個範例，看到 `cast` 這個設定的參數，這個參數可以設定型態，已上面這個例子，
+透過上面這個範例，看到 `cast` 這個設定的參數，這個參數可以設定型態，舉上面這個例子，
 
 代表 DEBUG 將得到一個 bool，而不會像環境變數的方式回傳字串的 'False' （環境變數只能回傳字串）。
 
-通常 [settings.ini](xx) 這個檔案不會上 github ，也就是會被寫在 `.gitignore` 中，避免將敏感資料放到雲端 ，
+通常 [settings.ini](https://github.com/twtrubiks/python-notes/blob/master/python-decouple-tutorial/settings.ini) 這個檔案不會上 github ，也就是會被寫在 `.gitignore` 中，避免將敏感資料放到雲端 ，
 
 有時候會放一個 `settings.example.ini` 上 github，需要的人再自行改檔名以及將內容的資訊換成正確的。
 
-假如我佈署到 [heroku](https://www.heroku.com/)，這時候並不會有 [settings.ini](xx)，我們就必須到網頁後台設定環境變
-數。
+假如我佈署到 [heroku](https://www.heroku.com/)，這時候並不會有 [settings.ini](https://github.com/twtrubiks/python-notes/blob/master/python-decouple-tutorial/settings.ini)，我們就必須到網頁後台設定環境變數。
 
 ## 執行環境
 
