@@ -144,6 +144,8 @@ Python Notes 學習筆記 📝
 
 [python-decouple-tutorial](https://github.com/twtrubiks/python-notes) - python decouple tutorial
 
+[dj_database_url_tutorial](https://github.com/twtrubiks/python-notes) - dj-database-url tutorial ( for django )
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
