@@ -72,7 +72,7 @@ Python Notes 學習筆記 📝
 
 [raise_an_exception_from_function_call.py](https://github.com/twtrubiks/python-notes/blob/master/raise_an_exception_from_function_call.py) - it is better to raise an exception that can be caught by the caller instead.
 
-[range_xrange.py](https://github.com/twtrubiks/python-notes/blob/master/range_xrange.py) -  range vs xrange
+[range.py](https://github.com/twtrubiks/python-notes/blob/master/range.py) -  range
 
 [reduce.py](https://github.com/twtrubiks/python-notes/blob/master/reduce.py) - reduce
 
