@@ -1,5 +1,7 @@
 # python-decouple-tutorial
 
+* [python-decouple 介紹](https://youtu.be/CliJ7zNf90U)
+
 簡單介紹一個套件， 名稱為 [python-decouple](https://github.com/henriquebastos/python-decouple)，
 
 主要功能：**強大的設定檔 library**。
