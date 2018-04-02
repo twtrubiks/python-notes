@@ -148,7 +148,7 @@ Python Notes 學習筆記 📝
 
 [dj_database_url_tutorial](https://github.com/twtrubiks/python-notes/tree/master/dj_database_url_tutorial) - dj-database-url tutorial ( for django )
 
-[pandas_tutorial](xxx) -pandas tutorial
+[pandas_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pandas_tutorial) -pandas tutorial
 
 ## 如何使用
 

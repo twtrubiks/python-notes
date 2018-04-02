@@ -1,5 +1,7 @@
 # pandas_tutorial_2
 
+* [Youtube Tutorial Part2 - pandas tutorial ( join )](xxx) - 等待新增
+
 這個範例主要是要和大家介紹，
 
 用 pandas 也可以玩像是 database 中的 `inner join` `outer join` `left join` `right join`，
