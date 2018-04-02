@@ -148,6 +148,8 @@ Python Notes 學習筆記 📝
 
 [dj_database_url_tutorial](https://github.com/twtrubiks/python-notes/tree/master/dj_database_url_tutorial) - dj-database-url tutorial ( for django )
 
+[pandas_tutorial](xxx) -pandas tutorial
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
