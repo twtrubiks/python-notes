@@ -1,6 +1,6 @@
 # pandas_tutorial_1
 
-* [Youtube Tutorial Part1 - pandas tutorial ( pivot_table )](xxx) - 等待新增
+* [Youtube Tutorial Part1 - pandas tutorial ( pivot_table )](https://youtu.be/ZGUUDDO79jE)
 
 第一個範例，是讓我發現 pandas 強大的地方，假設現在有一個需求，
 

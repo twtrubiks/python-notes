@@ -1,6 +1,6 @@
 # pandas_tutorial_2
 
-* [Youtube Tutorial Part2 - pandas tutorial ( join )](xxx) - 等待新增
+* [Youtube Tutorial Part2 - pandas tutorial ( join )](https://youtu.be/TLp9bM2AzTQ)
 
 這個範例主要是要和大家介紹，
 
