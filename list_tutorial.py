@@ -18,3 +18,11 @@ if __name__ == "__main__":
     oringin = ['0', '1', '2', '3', '8']
     result = sorted(oringin, key=lambda x: target_sort.index(x))
     print(result)
+    
+    # reverse - methond 1
+    demo_list = [5, 4, 3, 2, 1]
+    demo_list.reverse()
+    print('demo_list', demo_list)
+    # reverse - methond 2
+    demo_list_2 = [5, 4, 3, 2, 1]
+    print('demo_list_2[::-1]', demo_list_2[::-1])
