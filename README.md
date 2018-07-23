@@ -150,7 +150,7 @@ Python Notes 學習筆記 📝
 
 [pandas_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pandas_tutorial) - pandas tutorial
 
-[random_tutorial](https://github.com/twtrubiks/python-notes/tree/master/random_tutorial) - random tutorial
+[random_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/random_tutorial.py) - random tutorial
 
 ## 如何使用
 
