@@ -16,6 +16,10 @@ if __name__ == "__main__":
     int_string = '51423'
     print('int_string: {}'.format(sorted(int_string)))
 
+    # int + string sequences
+    int_string_seqs = [1, '299', 3, '10', 7]
+    print(sorted(int_string_seqs, key=int))
+
     # vowels tuple
     pyTuple = ('c', 'a', 'd', 'e', 'b')
     print('sorted(pyTuple): {}'.format(sorted(pyTuple)))

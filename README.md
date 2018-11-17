@@ -163,7 +163,7 @@ Python Notes 學習筆記 📝
 
 ## 執行環境
 
-* Python 3.6.2
+* Python 3.6.4
 
 ## Reference
 
