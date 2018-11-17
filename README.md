@@ -142,6 +142,8 @@ Python Notes 學習筆記 📝
 
 [remove_trailing_zeros_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/remove_trailing_zeros_tutorial.py) - decimal remove trailing zeros tutorial ( TestCase )
 
+[itemgetter_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/itemgetter_tutorial.py) - itemgetter tutorial
+
 [groupby_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/groupby_tutorial.py) - itertools groupby tutorial
 
 [groupby_tutorial_find_consecutive numbers.py](https://github.com/twtrubiks/python-notes/blob/master/groupby_tutorial_find_consecutive_numbers.py) - find consecutive numbers in list by groupby tutorial
