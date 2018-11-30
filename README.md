@@ -108,7 +108,7 @@ Python Notes 學習筆記 📝
 
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
-[_len_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_len_tutorial.p) - _len_tutorial
+[_len_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_len_tutorial.py) - _len_tutorial
 
 [decimal_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decimal_tutorial.py) - decimal tutorial
 
@@ -155,6 +155,10 @@ Python Notes 學習筆記 📝
 [pandas_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pandas_tutorial) - pandas tutorial
 
 [random_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/random_tutorial.py) - random tutorial
+
+## 觀念
+
+[python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - 認識 python circular import
 
 ## 如何使用
 
