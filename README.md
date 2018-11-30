@@ -160,6 +160,8 @@ Python Notes 學習筆記 📝
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - 認識 python circular import
 
+[What happens when you type an URL in the browser and press enter](https://github.com/twtrubiks/python-notes/tree/master/what_happens_when_you_type_an_URL_in_the_browser_and_press_enter) - 當我們在瀏覽器上輸入網址並且按下 enter 之後， 到底發生了什麼事情:question:
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
