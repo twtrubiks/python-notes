@@ -162,6 +162,8 @@ Python Notes 學習筆記 📝
 
 [What happens when you type an URL in the browser and press enter](https://github.com/twtrubiks/python-notes/tree/master/what_happens_when_you_type_an_URL_in_the_browser_and_press_enter) - 當我們在瀏覽器上輸入網址並且按下 enter 之後， 到底發生了什麼事情:question:
 
+[cap theorem](https://github.com/twtrubiks/python-notes/tree/master/cap_theorem) - 認識 CAP theorem
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
