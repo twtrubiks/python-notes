@@ -220,4 +220,46 @@ if __name__ == '__main__':
 
 所以請斟酌使用。
 
-第三種方法就是好好思考你的架構，或許說你本來就將不該拆開的部分拆開了，所以才導致 circular import。
+這邊再補充一個方法 ( 感謝網友的提醒 )，除了上述的方法之外，我們也可以這樣使用，請看 看 [demo5](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import/demo5) 的資料夾，
+
+[a5.py](https://github.com/twtrubiks/python-notes/blob/master/python_circular_import/demo5/a5.py)
+
+```python
+def world():
+    print('world in a5')
+
+
+from demo5.b5 import hello
+
+
+def show():
+    print('show in a5')
+    hello()
+
+
+if __name__ == '__main__':
+    show()
+```
+
+[b5.py](https://github.com/twtrubiks/python-notes/blob/master/python_circular_import/demo5/b5.py)
+
+```python
+def hello():
+    print('hello in b5')
+
+
+from demo5.a5 import world
+
+
+def show():
+    print('show in b5')
+    world()
+
+
+if __name__ == '__main__':
+    show()
+```
+
+雖然這種方法，會有 pep8 的警告訊息:sweat_smile:
+
+最後一種方法就是好好思考你的架構，或許說你本來就將不該拆開的部分拆開了，所以才導致 circular import。

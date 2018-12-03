@@ -1,10 +1,10 @@
 def world():
-    print('world in a2')
+    print('world in a4')
 
 
 def show():
     from demo4.b4 import hello
-    print('show in a2')
+    print('show in a4')
     hello()
 
 
