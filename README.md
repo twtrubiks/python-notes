@@ -164,6 +164,10 @@ Python Notes 學習筆記 📝
 
 [cap theorem](https://github.com/twtrubiks/python-notes/tree/master/cap_theorem) - 認識 CAP theorem
 
+## data structure
+
+[linked list](https://github.com/twtrubiks/python-notes/tree/master/data_structure/linked_list/Introduction)
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
