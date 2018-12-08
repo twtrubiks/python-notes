@@ -84,9 +84,9 @@ Python Notes 學習筆記 📝
 
 [iter_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/iter_tutorial.py) - iter tutorial
 
-[__iter__tutorial](https://github.com/twtrubiks/python-notes/blob/master/__iter__tutorial.py) - __iter__tutorial
+[__iter__tutorial](https://github.com/twtrubiks/python-notes/blob/master/__iter__tutorial.py) - `__iter__` tutorial
 
-[_str_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_str_tutorial.py) - __str__  tutorial
+[_str_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_str_tutorial.py) - `__str__`  tutorial
 
 [strtobool_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/strtobool_tutorial.py) - strtobool
 
@@ -155,6 +155,8 @@ Python Notes 學習筆記 📝
 [pandas_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pandas_tutorial) - pandas tutorial
 
 [random_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/random_tutorial.py) - random tutorial
+
+[__call__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__call__tutorial.py) - `__call__` tutorial  - [youtube tutorial - What is the `__call__` in python](https://youtu.be/YIstPYG15IA)
 
 ## 觀念
 
