@@ -164,6 +164,8 @@ Python Notes 學習筆記 📝
 
 [cap theorem](https://github.com/twtrubiks/python-notes/tree/master/cap_theorem) - 認識 CAP theorem
 
+[python decorator](https://github.com/twtrubiks/python-notes/tree/master/decorator_tutorial)
+
 ## data structure
 
 [linked list](https://github.com/twtrubiks/python-notes/tree/master/data_structure/linked_list/Introduction)
