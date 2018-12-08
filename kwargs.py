@@ -3,7 +3,7 @@
 
 
 def everything(*args):
-    for count, thing in enumerate(args, start=0):
+    for count, thing in enumerate(args):
         print('{0}. {1}'.format(count, thing))
 
 
@@ -21,5 +21,5 @@ def print_three_things(a, b, c):
 if __name__ == "__main__":
     everything('apple', 'banana', 'cabbage')
     table_things(apple='fruit', cabbage='vegetable')
-    mylist = ['aardvark', 'baboon', 'cat']
-    print_three_things(*mylist)
+    my_list = ['aardvark', 'baboon', 'cat']
+    print_three_things(*my_list)

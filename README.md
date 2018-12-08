@@ -54,7 +54,7 @@ Python Notes 學習筆記 📝
 
 [json_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/json_tutorial.py) - json.loads()
 
-[kwargs.py](https://github.com/twtrubiks/python-notes/blob/master/kwargs.py) - **kwargs , *arg
+[kwargs.py](https://github.com/twtrubiks/python-notes/blob/master/kwargs.py) - **kwargs , *arg - [youtube tutorial - What is **kwargs  *args](https://youtu.be/UwhbFxLADmE)
 
 [lambda.py](https://github.com/twtrubiks/python-notes/blob/master/lambda.py) - lambda
 
