@@ -1,8 +1,4 @@
-from functools import wraps
-
-
 def my_logging(func):
-    @wraps(func)
     def wrapper(*args, **kwargs):
         """my wrapper"""
         print('logging - {} is running'.format(func.__name__))
@@ -13,7 +9,7 @@ def my_logging(func):
 
 @my_logging
 def f1(*args, **kwargs):
-    """write logging"""
+    """f1 function"""
     print("f1")
 
     for thing in args:
@@ -24,5 +20,5 @@ def f1(*args, **kwargs):
 
 
 f1('twtrubiks', apple='fruit', cabbage='vegetable')
-print('f1.__name__', f1.__name__)  # output -> 'f1'
-print('f1.__doc__', f1.__doc__)  # output -> 'write logging'
+print('f1.__name__', f1.__name__)  # output -> 'wrapper'
+print('f1.__doc__', f1.__doc__)  # output -> 'my wrapper'

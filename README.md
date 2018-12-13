@@ -160,13 +160,13 @@ Python Notes 學習筆記 📝
 
 ## 觀念
 
-[python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - 認識 python circular import
+[python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
 
-[What happens when you type an URL in the browser and press enter](https://github.com/twtrubiks/python-notes/tree/master/what_happens_when_you_type_an_URL_in_the_browser_and_press_enter) - 當我們在瀏覽器上輸入網址並且按下 enter 之後， 到底發生了什麼事情:question:
+[What happens when you type an URL in the browser and press enter](https://github.com/twtrubiks/python-notes/tree/master/what_happens_when_you_type_an_URL_in_the_browser_and_press_enter) - [youtube tutorial - What happens when you type an URL in the browser and press enter](https://youtu.be/PDR-fIooaLE)
 
-[cap theorem](https://github.com/twtrubiks/python-notes/tree/master/cap_theorem) - 認識 CAP theorem
+[cap theorem](https://github.com/twtrubiks/python-notes/tree/master/cap_theorem) - [youtube tutorial - What is CAP theorem](https://youtu.be/jBgN5g_FaOs)
 
-[python decorator](https://github.com/twtrubiks/python-notes/tree/master/decorator_tutorial)
+[what_is_the_python_decorator](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_python_decorator)
 
 ## data structure
 
