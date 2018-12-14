@@ -168,6 +168,8 @@ Python Notes 學習筆記 📝
 
 [what_is_the_python_decorator](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_python_decorator)
 
+[what_is_the_python_property](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_property)
+
 ## data structure
 
 [linked list](https://github.com/twtrubiks/python-notes/tree/master/data_structure/linked_list/Introduction)

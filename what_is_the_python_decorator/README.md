@@ -495,7 +495,7 @@ print('registry:', registry) # <2>
 
 介紹到這邊差不多該告一段落了:relaxed:未來會再補充幾個常用的裝飾器，
 
-* property - [等待新增](x)
+* property - [What is the property in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_property)
 
 * classmethod and staticmethod - [等待新增](xx)
 
