@@ -497,7 +497,7 @@ print('registry:', registry) # <2>
 
 * property - [What is the property in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_property)
 
-* classmethod and staticmethod - [等待新增](xx)
+* classmethod and staticmethod - [What is the classmethod and staticmethod in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_classmethod_and_staticmethod)
 
 以及在 `functools` module 中，比較實用的裝飾器，
 
