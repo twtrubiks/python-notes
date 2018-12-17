@@ -172,6 +172,8 @@ Python Notes 學習筆記 📝
 
 [what_is_the_classmethod_and_staticmethod](https://github.com/twtrubiks/python-notes/tree/master/what_is_classmethod_and_staticmethod)
 
+[what_is_the_functools.lru_cache-等待新增](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_functools.lru_cache)
+
 ## data structure
 
 [linked list](https://github.com/twtrubiks/python-notes/tree/master/data_structure/linked_list/Introduction)
