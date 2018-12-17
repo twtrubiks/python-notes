@@ -19,7 +19,7 @@ def append_anti_pattern(number, number_list=[]):  # if use pycharm , will warn y
 
 
 def append(number, number_list=None):
-    if number_list is None:
+    if not number_list:
         number_list = []
     number_list.append(number)
     print(number_list)

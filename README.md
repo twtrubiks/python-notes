@@ -94,7 +94,7 @@ Python Notes 學習筆記 📝
 
 [use_unpacking.py](https://github.com/twtrubiks/python-notes/blob/master/use_unpacking.py) - use unpacking
 
-[using_a_mutable_default_value_as_an_argument.py](https://github.com/twtrubiks/python-notes/blob/master/using_a_mutable_default_value_as_an_argument.py) -  Be careful with mutable default arguments ( lists or dictionaries )
+[using_a_mutable_default_value_as_an_argument.py](https://github.com/twtrubiks/python-notes/blob/master/using_a_mutable_default_value_as_an_argument.py) -  Be careful with mutable default arguments ( lists or dictionaries ) - [youtube tutorial](https://youtu.be/H5S0e_lNOlo)
 
 [zip_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/zip_tutorial.py) - zip
 
