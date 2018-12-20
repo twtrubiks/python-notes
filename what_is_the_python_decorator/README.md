@@ -503,7 +503,7 @@ print('registry:', registry) # <2>
 
 * functools.wraps - 本篇文章已經介紹過了
 
-* functools.lru_cache - [等待新增](xx)
+* functools.lru_cache - [What is the functools.lru_cache in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_functools.lru_cache)
 
 * functools.singeldispatch - [等待新增](xx)
 

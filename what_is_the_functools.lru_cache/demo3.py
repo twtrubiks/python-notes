@@ -1,4 +1,4 @@
-from lru_cache_tu.clockdeco import clock
+from clockdeco import clock
 import functools
 
 

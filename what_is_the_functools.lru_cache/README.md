@@ -1,6 +1,8 @@
 # What is the functools.lru_cache in python
 
-[Youtube Tutorial - What is the functools.lru_cache in python-等待新增](X)
+[Youtube Tutorial - 什麼是 functools.lru_cache in python - part 1](https://youtu.be/fTBRoiy8w8Y)
+
+[Youtube Tutorial - 什麼是 functools.lru_cache in python - part 2](https://youtu.be/ThNBPIs0Lc4)
 
 這篇文章主要會介紹 functools module 中的 `functools.lru_cache`，在介紹之前，
 
@@ -37,7 +39,7 @@ run very long.....
 
 竟然只顯示一次的 run very long，不是應該要 print 出兩次嗎:question:
 
-原因就是使用了 `@functools.lru_cache()`，的關係，主要會把結果快取起來，
+原因就是使用了 `@functools.lru_cache()` 的關係，它會將結果快取起來，
 
 這樣的好處是就算 `job` 這個 function 要執行非常的久，當我們傳入**同樣的參數**
 
@@ -96,14 +98,14 @@ if __name__ == '__main__':
 
 發現到了嗎:question:
 
-有很多重複執行的部分，其實這些地方都是多跑的，因為其實都已經計算過了，可以利用
+有很多重複執行的部分，其實這些地方都是多跑的，因為其實都已經計算過了，
 
-`@functools.lru_cache()` 將結果快取起來，
+可以利用 `@functools.lru_cache()` 將結果快取起來，改良如下，
 
 [demo3.py](demo3.py)
 
 ```python
-from lru_cache_tu.clockdeco import clock
+from clockdeco import clock
 import functools
 
 @functools.lru_cache() # <1>
@@ -141,6 +143,8 @@ if __name__ == '__main__':
 
 每個都只會呼叫一次，因為如果有重複的，就會直接使用快取，減少不必要的開銷。
 
+[Youtube Tutorial - 什麼是 functools.lru_cache in python - part 2](https://youtu.be/ThNBPIs0Lc4)
+
 另外一點要注意的是參數的問題，預設的參數為 `functools.lru_cache(maxsize=128, typed=False)`，
 
 `maxsize` 指的是可以 cache 多少個結果，如果滿了，就會丟棄最近使用較少的快取
@@ -149,7 +153,7 @@ if __name__ == '__main__':
 
 `typed` 指的是是否 f(3.0) 和 f(3) 為不同的結果。
 
-來看一個例子解釋上面這兩個參數，
+來看一個例子解釋 `maxsize` 的意思，
 
 [demo4.py](demo4.py)
 
@@ -173,7 +177,9 @@ if __name__ == '__main__':
 
 <1> 的部分，會發現沒有被 cache，原因是因為 cache 已經滿了。
 
-[demo5.py](x)
+再看一個例子解釋 `typed 指的是是否 f(3.0) 和 f(3) 為不同的結果`，
+
+[demo5.py](demo5.py)
 
 ```python
 import functools
@@ -189,7 +195,7 @@ if __name__ == '__main__':
     print(job(1.0)) # <2>
 ```
 
-如果將 `typed` 設定為 `True`，你會發現 <1> 和 <2> 他會認為是兩種
+如果將 `typed` 設定為 `True`，你會發現 <1> 和 <2> 它會認為是兩種
 
 不同的結果，所以不會使用 cache，如果設定為 `False` ( 預設值 )，
 
@@ -199,7 +205,7 @@ if __name__ == '__main__':
 
 所以被 lru_cache 裝飾的 function 中的參數，必須是 **hashable**。
 
-( 可以將參數改成 `list`，因為他不是 hashable，所以就會噴錯 )
+( 可以將參數改成 `list` 測試，因為他不是 hashable，會 error )
 
 如果你不了解什麼是 **hashable**，可參考 [What is the Hashable](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_hashable)。
 
