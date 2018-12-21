@@ -505,7 +505,7 @@ print('registry:', registry) # <2>
 
 * functools.lru_cache - [What is the functools.lru_cache in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_functools.lru_cache)
 
-* functools.singeldispatch - [等待新增](xx)
+* functools.singeldispatch - [what_is_the_singledispatch](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_singledispatch)
 
 ## Donation
 
