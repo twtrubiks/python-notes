@@ -162,6 +162,8 @@ Python Notes 學習筆記 📝
 
 [queue_tutorial.py](queue_tutorial.py) - queue tutorial
 
+[str_startswith_tutorial.py](str_startswith_tutorial.py) - str.startswith() tutorial
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
