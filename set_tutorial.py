@@ -11,3 +11,10 @@ if __name__ == "__main__":
     print('set_seqs:', set_seqs)
     set_seqs.remove('test1')
     print('set_seqs:', set_seqs)
+
+    set_1 = {"a", "b", "c", "d"}
+    set_2 = {"d", "e", "f", "g"}
+    print("All: {}".format(set_1.union(set_2)))
+    print("Both: {}".format(set_1.intersection(set_2)))
+    print("Either but not both: {}".format(
+        set_1.symmetric_difference(set_2)))
