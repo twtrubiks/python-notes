@@ -4,7 +4,8 @@
 
 from collections import defaultdict
 
-if __name__ == "__main__":
+
+def ex1():
     # For the first example, default items are created using int(), which will return the integer object 0.
     int_dict = defaultdict(int)
     print('int_dict[3]', int_dict[3])  # print int(), thus 0
@@ -16,3 +17,15 @@ if __name__ == "__main__":
     dic_list['name'] = 'twtrubiks'
     print('dic_list[name]', dic_list['name'])
     print('dic_list[sex]', dic_list['sex'])
+
+
+def ex2_letter_frequency(sentence):
+    frequencies = defaultdict(int)
+    for letter in sentence:
+        frequencies[letter] += 1
+    return frequencies
+
+
+if __name__ == "__main__":
+    ex1()
+    print(ex2_letter_frequency('sentence'))

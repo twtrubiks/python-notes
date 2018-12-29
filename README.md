@@ -24,6 +24,8 @@ Python Notes 學習筆記 📝
 
 [defaultdict_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/defaultdict_tutorial.py) - defaultdict
 
+[counter_tutorial.py](counter_tutorial.py) - counter
+
 [namedtuple_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/namedtuple_tutorial.py) - namedtuple
 
 [dictionary_using_items.py](https://github.com/twtrubiks/python-notes/blob/master/dictionary_using_items.py) - dictionary.items()
