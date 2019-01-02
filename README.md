@@ -90,6 +90,8 @@ Python Notes 學習筆記 📝
 
 [yield_tutorial.py](yield_tutorial.py)- yield tutorial
 
+[yield_from_tutorial.py](yield_from_tutorial.py)- yield from tutorial
+
 [Enum_tutorial.py](Enum_tutorial.py)- Enum tutorial
 
 [__str__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__str__tutorial.py) - `__str__`  tutorial
