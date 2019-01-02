@@ -1,9 +1,21 @@
+from collections.abc import Iterable, Iterator
+
 
 # The iter() method returns an iterator for the given object.
 
 # The syntax of iter() method is
 # iter(object[, sentinel])
 
+
+# The iterator protocol
+# Any class that provides an __iter__ method is iterable;
+# that method must return an Iterator instance that will cover
+# all the elements in that class.
+# Since an iterator is already looping over elements,
+# its __iter__ function traditionally return itself.
+
+# Iterable - __iter__  (for in), iter(Iterable) -> Iterator
+# Iterator - __next__ + __iter__
 
 class PrintNumber:
     def __init__(self, max_number):
@@ -20,19 +32,63 @@ class PrintNumber:
         return self.num
 
 
-if __name__ == "__main__":
-    printNum = PrintNumber(3)
+def example_1():
+    print_mum = PrintNumber(3)
 
-    printNumIter = iter(printNum)
+    print_mum_iter = iter(print_mum)
 
     # prints '1'
-    print(next(printNumIter))
+    print(next(print_mum_iter))
 
     # prints '2'
-    print(next(printNumIter))
+    print(next(print_mum_iter))
 
     # prints '3'
-    print(next(printNumIter))
+    print(next(print_mum_iter))
 
     # raises StopIteration
-    print(next(printNumIter))
+    print(next(print_mum_iter))
+
+
+class CapitalIterable:
+    def __init__(self, string):
+        self.string = string
+
+    def __iter__(self):
+        return CapitalIterator(self.string)
+
+
+class CapitalIterator:
+    def __init__(self, string):
+        self.words = [w.capitalize() for w in string.split()]
+        self.index = 0
+
+    def __next__(self):
+        if self.index == len(self.words):
+            raise StopIteration()
+        word = self.words[self.index]
+        self.index += 1
+        return word
+
+    def __iter__(self):
+        return self
+
+
+def example_2():
+    iterable = CapitalIterable('the aa bb cc dd')
+    print('isinstance(iterable,Iterable):', isinstance(iterable, Iterable))
+    iterator = iter(iterable)
+    print('isinstance(iterator,Iterator):', isinstance(iterator, Iterator))
+    while True:
+        try:
+            print(next(iterator))
+        except StopIteration:
+            break
+
+    for i in iterable:
+        print(i)
+
+
+if __name__ == "__main__":
+    example_1()
+    # example_2()

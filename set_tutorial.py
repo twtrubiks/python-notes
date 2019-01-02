@@ -3,6 +3,8 @@ if __name__ == "__main__":
     ref. https://docs.python.org/3/tutorial/datastructures.html#sets
     A set is an unordered collection with no duplicate elements
     '''
+    # set_seqs = {'a', 'b'} # set
+    # dict_seqs = {} # dict
     set_seqs = set()
     set_seqs.add('test1')
     set_seqs.add('test2')

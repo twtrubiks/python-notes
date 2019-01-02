@@ -88,6 +88,8 @@ Python Notes 學習筆記 📝
 
 [__iter__tutorial](https://github.com/twtrubiks/python-notes/blob/master/__iter__tutorial.py) - `__iter__` tutorial
 
+[yield_tutorial.py](yield_tutorial.py)- yield tutorial
+
 [__str__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__str__tutorial.py) - `__str__`  tutorial
 
 [strtobool_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/strtobool_tutorial.py) - strtobool
@@ -110,7 +112,7 @@ Python Notes 學習筆記 📝
 
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
-[_len_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/_len_tutorial.py) - _len_tutorial
+[__len__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__len__tutorial.py) - `__len__` tutorial
 
 [decimal_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decimal_tutorial.py) - decimal tutorial
 
