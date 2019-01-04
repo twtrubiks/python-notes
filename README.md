@@ -170,6 +170,8 @@ Python Notes 學習筆記 📝
 
 [str_startswith_tutorial.py](str_startswith_tutorial.py) - str.startswith() tutorial
 
+[logging_tutorial.py](logging_tutorial.py)- logging tutorial
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
