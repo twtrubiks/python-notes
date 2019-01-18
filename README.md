@@ -64,7 +64,7 @@ Python Notes 學習筆記 📝
 
 [loop_if_else_break.py](https://github.com/twtrubiks/python-notes/blob/master/loop_if_else_break.py) - if not add break , will run more meaningless loop
 
-[map.py](https://github.com/twtrubiks/python-notes/blob/master/map.py) - map
+[map_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/map_tutorial.py) - map tutorial
 
 [OrderedDict_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/OrderedDict_tutorial.py) - OrderedDict
 
@@ -171,6 +171,8 @@ Python Notes 學習筆記 📝
 [str_startswith_tutorial.py](str_startswith_tutorial.py) - str.startswith() tutorial
 
 [logging_tutorial.py](logging_tutorial.py)- logging tutorial
+
+[operator_add_tutorial.py](operator_add_tutorial.py) - operator.add tutorial
 
 ## 觀念
 
