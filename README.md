@@ -176,7 +176,7 @@ Python Notes 學習筆記 📝
 
 [itertools_islice_tutorial.py](itertools_islice_tutorial.py) - itertools.islice tutorial
 
-
+[itertools_tee_tutorial.py](itertools_tee_tutorial.py) - itertools.tee tutorial
 
 ## 觀念
 
