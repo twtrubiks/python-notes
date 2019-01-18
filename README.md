@@ -174,6 +174,10 @@ Python Notes 學習筆記 📝
 
 [operator_add_tutorial.py](operator_add_tutorial.py) - operator.add tutorial
 
+[itertools_islice_tutorial.py](itertools_islice_tutorial.py) - itertools.islice tutorial
+
+
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
