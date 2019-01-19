@@ -186,15 +186,19 @@ Python Notes 學習筆記 📝
 
 [cap theorem](https://github.com/twtrubiks/python-notes/tree/master/cap_theorem) - [youtube tutorial - What is CAP theorem](https://youtu.be/jBgN5g_FaOs)
 
-[what_is_the_python_decorator](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_python_decorator)
+[what is the python decorator](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_python_decorator)
 
-[what_is_the_python_property](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_property)
+[what is the python property](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_property)
 
-[what_is_the_classmethod_and_staticmethod](https://github.com/twtrubiks/python-notes/tree/master/what_is_classmethod_and_staticmethod)
+[what is the classmethod and staticmethod](https://github.com/twtrubiks/python-notes/tree/master/what_is_classmethod_and_staticmethod)
 
-[what_is_the_functools.lru_cache](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_functools.lru_cache)
+[what is the functools.lru_cache](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_functools.lru_cache)
 
-[what_is_the_singledispatch](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_singledispatch)
+[what is the singledispatch](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_singledispatch)
+
+## other
+
+[fibonacci numbers tutorial](fibonacci_numbers_tutorial)
 
 ## data structure
 
