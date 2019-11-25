@@ -178,6 +178,8 @@ Python Notes 學習筆記 📝
 
 [itertools_tee_tutorial.py](itertools_tee_tutorial.py) - itertools.tee tutorial
 
+[bytesio_tutorial.py](bytesio_tutorial.py) - bytesio tutorial
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
