@@ -1,18 +1,20 @@
-# python interpreter 說明
+# what is the python interpreter
 
-很多時候我們打開 `.py` 檔案，開頭的第一行會是 `#!/usr/bin/python3`。
+* [Youtube Tutorial - what is the python interpreter](https://youtu.be/MxS3CoyyIaU)
 
-有想過這是為什麼嗎 :question:
+Many times we open the `.py` file, and the first line at the beginning will show `#!/usr/bin/python3`.
 
-`#!/usr/bin/python3` 是用來指定 interpreter 直譯器:exclamation::exclamation:
+Ever wondered why is this :question:
 
-為什麼要指定 interpreter 直譯器:question:
+`#!/usr/bin/python3` is used to specify the interpreter:exclamation::exclamation:
 
-舉個例子，很多人在系統中同時安裝了 Python2 和 Python3，但是 2 和 3 是不兼容的，
+Why specify an interpreter:question:
 
-所以執行 `.py` 時必須指定 interpreter 直譯器。
+For example, many people have both Python2 and Python3 installed on their systems, but 2 and 3 are not compatible.
 
-舉個例子，`hello.py` 如下
+So you must specify an interpreter when executing `.py`.
+
+For example, `hello.py`
 
 ```python
 #!/usr/bin/python3
@@ -21,22 +23,28 @@ import sys
 print(str(sys.version))
 ```
 
-你會發現輸出 python3 的資訊。
+You will find the output of python3.
 
-`#!` 之後的空格是可選擇的，也就是
+The space after `#!` is optional, that is, `#!/usr/bin/python3` and `#! /usr/bin/python3` are both allowed.
 
-`#!/usr/bin/env python3` 和 `#! /usr/bin/env python3` 這兩種寫法都是允許的。
+If an interpreter is specified, the following instructions can be executed directly, and it will be automatically executed using python3.
 
-如果有指定 interpreter 直譯器，可以直接執行以下指令，就會自動使用 python3 執行。
+Remember to give it execute permissions
+
+( x = executable )
+
+```cmd
+chmod +x hello.py
+```
 
 ```cmd
 ./hello.py
 ```
 
-如果沒有指定  interpreter 直譯器，也可以再執行時加上去。
+If no interpreter is specified, you can also be added to the terminal during execution.
 
 ```cmd
 python3 hello.py
 ```
 
-總之，目的就是要告訴電腦要用哪種 python 執行:blush:
+In short, the goal is to tell the computer which Python version to use:blush:

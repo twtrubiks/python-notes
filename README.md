@@ -204,7 +204,7 @@ Python Notes 學習筆記 📝
 
 [what is private and protected attribute](https://github.com/twtrubiks/python-notes/tree/master/what_is_private_and_protected_attribute)
 
-[python interpreter](https://github.com/twtrubiks/python-notes/blob/master/interpreter)
+[what is the python interpreter](https://github.com/twtrubiks/python-notes/blob/master/interpreter)
 
 [what is the f-string](https://github.com/twtrubiks/python-notes/tree/master/what_is_f-string)
 
