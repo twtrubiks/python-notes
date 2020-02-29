@@ -182,6 +182,8 @@ Python Notes 學習筆記 📝
 
 [stringio_tutorial.py](stringio_tutorial.py) - stringio tutorial
 
+[user_defined_exceptions_tutorial.py](user_defined_exceptions_tutorial.py) - User-defined Exceptions tutorial
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
