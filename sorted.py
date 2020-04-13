@@ -16,9 +16,16 @@ if __name__ == "__main__":
     int_string = '51423'
     print('int_string: {}'.format(sorted(int_string)))
 
-    # int + string sequences
+    # int + string sequences (mixed bag)
     int_string_seqs = [1, '299', 3, '10', 7]
+
+    # print(sorted(int_string_seqs))
+    # Traceback (most recent call last):
+    # File "<stdin>", line 1, in <module>
+    # TypeError: '<' not supported between instances of 'str' and 'int'
+
     print(sorted(int_string_seqs, key=int))
+    print(sorted(int_string_seqs, key=str))
 
     # vowels tuple
     pyTuple = ('c', 'a', 'd', 'e', 'b')
