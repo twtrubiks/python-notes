@@ -198,6 +198,8 @@ Python Notes 學習筆記 📝
 
 [what is the classmethod and staticmethod](https://github.com/twtrubiks/python-notes/tree/master/what_is_classmethod_and_staticmethod)
 
+[what is the abstractmethod](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_abstractmethod)
+
 [what is the functools.lru_cache](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_functools.lru_cache)
 
 [what is the singledispatch](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_singledispatch)

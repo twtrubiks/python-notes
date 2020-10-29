@@ -93,6 +93,32 @@ if __name__ == "__main__":
 
 大家可以再比較 [demo1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo1.py) 以及 [demo2.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo2.py)，看看哪個比較簡便:smirk:
 
+還有另一種寫法, 參考 [demo2_1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo2_1.py),
+
+就是將 property 抽出來另外寫, 格式如下
+
+`property(fget=None, fset=None, fdel=None, doc=None)`
+
+```python
+class A:
+    def __init__(self, content):
+        self._content = content
+
+    def get_content(self):
+        if not hasattr(self, '_content'):
+            return "content not exists"
+        return self._content
+
+    def set_content(self, value):
+        self._content = value
+
+    def del_content(self):
+        del self._content
+
+    # property(fget=None, fset=None, fdel=None, doc=None)
+    content = property(get_content, set_content, del_content, 'my content property')
+```
+
 `@property` 還可以來建立 read only ( 透過他的 getter 和 setter 的特性 )，
 
 看下面這個例子，

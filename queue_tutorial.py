@@ -1,5 +1,6 @@
 from queue import Queue
 
+# Queue is thread-safe.
 
 # if the operation cannot successfully complete because the queue is either empty (cant get) or full ( cant put).
 # The default behavior is to block or idly wait until the Queue object has data or room available to
