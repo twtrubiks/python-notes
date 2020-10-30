@@ -212,6 +212,8 @@ Python Notes 學習筆記 📝
 
 [what is the f-string](https://github.com/twtrubiks/python-notes/tree/master/what_is_f-string)
 
+[what is the mixin](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_mixin)
+
 ## other
 
 [fibonacci numbers tutorial](fibonacci_numbers_tutorial)
