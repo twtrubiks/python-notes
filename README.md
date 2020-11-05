@@ -168,6 +168,8 @@ Python Notes 學習筆記 📝
 
 [queue_tutorial.py](queue_tutorial.py) - queue tutorial
 
+[methodcaller_tutorial](methodcaller_tutorial) - methodcaller tutorial
+
 [str_startswith_tutorial.py](str_startswith_tutorial.py) - str.startswith() tutorial
 
 [logging_tutorial.py](logging_tutorial.py)- logging tutorial
