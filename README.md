@@ -176,6 +176,8 @@ Python Notes 學習筆記 📝
 
 [operator_add_tutorial.py](operator_add_tutorial.py) - operator.add tutorial
 
+[operator_mul_tutorial.py](operator_mul_tutorial.py) - operator.mul tutorial
+
 [itertools_islice_tutorial.py](itertools_islice_tutorial.py) - itertools.islice tutorial
 
 [itertools_tee_tutorial.py](itertools_tee_tutorial.py) - itertools.tee tutorial
