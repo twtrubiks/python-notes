@@ -186,6 +186,8 @@ Python Notes 學習筆記 📝
 
 [stringio_tutorial.py](stringio_tutorial.py) - stringio tutorial
 
+[functools_partial_tutorial.py](functools_partial_tutorial.py) - functools.partial tutorial
+
 [user_defined_exceptions_tutorial.py](user_defined_exceptions_tutorial.py) - User-defined Exceptions tutorial
 
 ## 觀念
