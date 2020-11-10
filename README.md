@@ -68,6 +68,8 @@ Python Notes 學習筆記 📝
 
 [OrderedDict_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/OrderedDict_tutorial.py) - OrderedDict
 
+[MappingProxyType_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/MappingProxyType_tutorial.py) - MappingProxyType
+
 [parse_dateutil.py](https://github.com/twtrubiks/python-notes/blob/master/parse_dateutil.py) - dateutil.parser
 
 [property_decorator.py](https://github.com/twtrubiks/python-notes/blob/master/property_decorator.py) - property_decorator
