@@ -16,6 +16,10 @@ Python Notes 學習筆記 📝
 
 ## 筆記
 
+[repr_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/repr_tutorial.py) - repr tutorial
+
+[str_find_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/str_find_tutorial.py) - str_find tutorial
+
 [attribute_obj.py](https://github.com/twtrubiks/python-notes/blob/master/attribute_obj.py) - setattr() , getattr() , hasattr()
 
 [check_is_in_list.py](https://github.com/twtrubiks/python-notes/blob/master/check_is_in_list.py) -  檢查目標是否在 list 裡
@@ -191,6 +195,8 @@ Python Notes 學習筆記 📝
 [functools_partial_tutorial.py](functools_partial_tutorial.py) - functools.partial tutorial
 
 [user_defined_exceptions_tutorial.py](user_defined_exceptions_tutorial.py) - User-defined Exceptions tutorial
+
+[weakref_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/weakref_tutorial.py) - weakref tutorial
 
 ## 觀念
 
