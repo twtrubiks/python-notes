@@ -19,3 +19,7 @@ def f1(*args, **kwargs):
 
 
 f1('twtrubiks', apple='fruit', cabbage='vegetable')
+
+# @MyDecorator Equivalent
+# f1 = MyDecorator(f1)
+# f1('twtrubiks', apple='fruit', cabbage='vegetable')

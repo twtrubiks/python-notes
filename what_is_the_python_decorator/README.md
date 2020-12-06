@@ -371,9 +371,9 @@ print('f1.__doc__', f1.__doc__)  # output -> 'f1 function'
 
 這樣子就可以正確的顯示 `f1` 的資訊了。
 
-裝飾器除了裝飾 function 之外，也可以裝飾 class，class decorator 主要是
+裝飾器除了 function 之外, 也可以是 class，
 
-依賴 `__call__` 的方法，可參考 [What is the `__call__` in python](https://youtu.be/YIstPYG15IA)。
+class decorator 主要是依賴 `__call__` 的方法，可參考 [What is the `__call__` in python](https://youtu.be/YIstPYG15IA)。
 
 [demo8.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_python_decorator/demo8.py)
 
@@ -401,6 +401,10 @@ def f1(*args, **kwargs):
 
 
 f1('twtrubiks', apple='fruit', cabbage='vegetable')
+
+# @MyDecorator Equivalent
+# f1 = MyDecorator(f1)
+# f1('twtrubiks', apple='fruit', cabbage='vegetable')
 ```
 
 [demo8_1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_python_decorator/demo8_1.py)

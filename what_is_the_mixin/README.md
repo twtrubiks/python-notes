@@ -1,6 +1,6 @@
 # What is the Mixin
 
-[Youtube Tutorial - (等待新增)甚麼是 Mixin in python]()
+[Youtube Tutorial - 什麼是 Mixin in python](https://youtu.be/mWg1sIUcepQ)
 
 這篇文章主要會介紹 Mixin,
 
