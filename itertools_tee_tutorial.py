@@ -8,5 +8,8 @@ Return n independent iterators from a single iterable.
 if __name__ == '__main__':
     print(tee([1, 2, 3, 4]))  # (<itertools._tee object at 0x02EDA508>, <itertools._tee object at 0x02EDD1E8>)
     iter1, iter2 = tee([1, 2, 3, 4])
-    print(list(iter1))  # [1, 2, 3, 4]
-    print(list(iter2))  # [1, 2, 3, 4]
+    print(next(iter1))
+    print(next(iter1))
+    print(next(iter2))
+    print(list(iter1))
+    print(list(iter2))

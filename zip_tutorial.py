@@ -7,9 +7,13 @@ if __name__ == "__main__":
     # tutorial 1
     numbers = [1, 2, 3]
     letters = ["A", "B", "C"]
+    numbers_3 = ["a", "b", "c"]
 
     for numbers_value, letters_value in zip(numbers, letters):
         print(numbers_value, letters_value)
+
+    for numbers_value, letters_value, v3 in zip(numbers, letters, numbers_3):
+        print(numbers_value, letters_value, v3)
 
     # tutorial 2
     numberList = [1, 2, 3]

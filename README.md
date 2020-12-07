@@ -186,6 +186,8 @@ Python Notes 學習筆記 📝
 
 [operator_mul_tutorial.py](operator_mul_tutorial.py) - operator.mul tutorial
 
+[itertools_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/itertools_tutorial.py) - itertools tutorial
+
 [itertools_islice_tutorial.py](itertools_islice_tutorial.py) - itertools.islice tutorial
 
 [itertools_tee_tutorial.py](itertools_tee_tutorial.py) - itertools.tee tutorial
