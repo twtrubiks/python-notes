@@ -1,6 +1,6 @@
-# 甚麼是 abstractmethod
+# 什麼是 abstractmethod
 
-[Youtube Tutorial - (等待中)甚麼是 abstractmethod in python]()
+[Youtube Tutorial - 什麼是 abstractmethod in python](https://youtu.be/G-W_F9Sblj4)
 
 這篇文章主要會介紹 abstractmethod,
 

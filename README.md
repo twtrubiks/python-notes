@@ -120,7 +120,9 @@ Python Notes 學習筆記 📝
 
 [decorator_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decorator_tutorial.py) - decorator 裝飾器
 
-[context_manager_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/context_manager_tutorial.py) -  context manager
+[with_as_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/with_as_tutorial.py) - with as tutorial
+
+[context_manager_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/context_manager_tutorial.py) - context manager
 
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
@@ -197,6 +199,8 @@ Python Notes 學習筆記 📝
 [stringio_tutorial.py](stringio_tutorial.py) - stringio tutorial
 
 [functools_partial_tutorial.py](functools_partial_tutorial.py) - functools.partial tutorial
+
+[try_except_tutorial.py](try_except_tutorial.py) - try except tutorial
 
 [user_defined_exceptions_tutorial.py](user_defined_exceptions_tutorial.py) - User-defined Exceptions tutorial
 

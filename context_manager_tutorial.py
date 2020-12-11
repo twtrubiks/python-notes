@@ -12,7 +12,7 @@ def my_context():
 @contextmanager
 def tag(name):
     print('<{}>'.format(name))
-    yield
+    yield 'HIHI~'
     print('</{}>'.format(name))
 
 
@@ -27,7 +27,7 @@ def elapsed_time(name=''):
 @contextmanager
 def try_catch():
     try:
-        yield
+        yield 'okok'
     except Exception as e:
         print("e=%s" % str(e))
     finally:
@@ -36,8 +36,9 @@ def try_catch():
 
 if __name__ == '__main__':
     # tutorial_1
-    with tag('h1'):
+    with tag('h1') as data:
         print('hello')
+        print(data)
 
     # tutorial_2
     # with tag('h1'), tag('p'):
@@ -48,5 +49,7 @@ if __name__ == '__main__':
     #     time.sleep(2)
 
     # tutorial_4
-    # with try_catch():
+    # with try_catch() as data:
+    #     print(data)
     #     source = 1/0
+
