@@ -29,3 +29,8 @@ if __name__ == "__main__":
     for seq in int_seqs:
         print(isinstance(seq, int))
         print(seq)
+
+    # tutorial_3
+    pattern = 'abcidkeujaddcsjb'
+    print(list(map(pattern.find, pattern)))
+
