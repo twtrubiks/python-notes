@@ -136,6 +136,8 @@ Python Notes 學習筆記 📝
 
 [built-in-functions_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/built-in-functions_tutorial.py) - Built-in Functions tutorial
 
+[division_operators_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/division_operators_tutorial.py) - division operators tutorial
+
 [reduce_use_for_loop_tutorial_1.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_1.py) - reduce_use_for_loop_tutorial_1
 
 [reduce_use_for_loop_tutorial_2.py](https://github.com/twtrubiks/python-notes/blob/master/reduce_use_for_loop_tutorial_2.py) -        reduce_use_for_loop_tutorial_2
