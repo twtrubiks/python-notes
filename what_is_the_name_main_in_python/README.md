@@ -89,7 +89,7 @@ a1_func()
 執行結果如下，
 
 ```text
-demo2.py is called
+demo4.py is called
 hello a1_func
 ```
 
