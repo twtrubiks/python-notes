@@ -124,6 +124,8 @@ Python Notes 學習筆記 📝
 
 [context_manager_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/context_manager_tutorial.py) - context manager
 
+[suppress_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/suppress_tutorial.py) - context manager - suppress
+
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
 [__len__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__len__tutorial.py) - `__len__` tutorial
