@@ -18,6 +18,8 @@ Python Notes 學習筆記 📝
 
 [repr_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/repr_tutorial.py) - repr tutorial
 
+[assert_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/assert_tutorial.py) - assert tutorial
+
 [str_find_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/str_find_tutorial.py) - str_find tutorial
 
 [attribute_obj.py](https://github.com/twtrubiks/python-notes/blob/master/attribute_obj.py) - setattr() , getattr() , hasattr()
