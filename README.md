@@ -126,7 +126,7 @@ Python Notes 學習筆記 📝
 
 [context_manager_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/context_manager_tutorial.py) - context manager
 
-[suppress_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/suppress_tutorial.py) - context manager - suppress
+[suppress_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/suppress_tutorial.py) - context manager - suppress - [youtube tutorial - python 教學 - 什麼是 suppress](https://youtu.be/t4FbMd4n4rE)
 
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
 
@@ -180,11 +180,11 @@ Python Notes 學習筆記 📝
 
 [random_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/random_tutorial.py) - random tutorial
 
-[__call__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__call__tutorial.py) - `__call__` tutorial  - [youtube tutorial - What is the `__call__` in python](https://youtu.be/YIstPYG15IA)
+[__call__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__call__tutorial.py) - `__call__` tutorial - [youtube tutorial - What is the `__call__` in python](https://youtu.be/YIstPYG15IA)
 
 [queue_tutorial.py](queue_tutorial.py) - queue tutorial
 
-[methodcaller_tutorial](methodcaller_tutorial) - methodcaller tutorial
+[methodcaller_tutorial](methodcaller_tutorial) - methodcaller tutorial - [youtube tutorial - python 教學 - 什麼是 methodcaller](https://youtu.be/OEMPp9i1kYc)
 
 [str_startswith_tutorial.py](str_startswith_tutorial.py) - str.startswith() tutorial
 
@@ -241,6 +241,8 @@ Python Notes 學習筆記 📝
 [what is the f-string](https://github.com/twtrubiks/python-notes/tree/master/what_is_f-string)
 
 [what is the mixin](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_mixin)
+
+[type-hints-tutorial](https://github.com/twtrubiks/python-notes/tree/master/type-hints-tutorial) - PEP 484 Type Hints 介紹 - [youtube tutorial - PEP 484 Type Hints 介紹](https://youtu.be/kXB__qIz5gY)
 
 ## other
 
