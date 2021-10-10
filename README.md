@@ -252,6 +252,10 @@ Python Notes 學習筆記 📝
 
 [linked list](https://github.com/twtrubiks/python-notes/tree/master/data_structure/linked_list/Introduction)
 
+## tools
+
+[vcr-tutorial](vcr-tutorial) - [Youtube Tutorial - vrcpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
