@@ -262,6 +262,26 @@ Python Notes 學習筆記 📝
 
 [decorator_lib.py](decorator_lib.py) - decorator lib tutorial
 
+[flake8](https://github.com/PyCQA/flake8) - linter 工具
+
+[black](https://github.com/psf/black) - 自動排版工具
+
+[isort](https://github.com/PyCQA/isort) - 排序 import 套件
+
+[pipx](https://github.com/pypa/pipx/) - 類似 linux 中的 apt, 更方便管理套件.
+
+指定 python 版本
+
+```cmd
+pipx install --python python3.8 flake8
+```
+
+查看目前安裝套件
+
+```cmd
+pipx list
+```
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
