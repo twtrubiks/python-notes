@@ -262,6 +262,8 @@ Python Notes 學習筆記 📝
 
 [decorator_lib.py](decorator_lib.py) - decorator lib tutorial
 
+[pytest_tutorial](pytest_tutorial) - pytest 教學
+
 [flake8](https://github.com/PyCQA/flake8) - linter 工具
 
 [black](https://github.com/psf/black) - 自動排版工具
