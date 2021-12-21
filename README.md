@@ -256,7 +256,7 @@ Python Notes 學習筆記 📝
 
 ## tools
 
-[vcr-tutorial](vcr-tutorial) - [Youtube Tutorial - vrcpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
+[vcr-tutorial](vcr-tutorial) - [Youtube Tutorial - vcrpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
 
 [freezegun_tutorial.py](freezegun_tutorial.py) - mock datetime
 
