@@ -1,6 +1,6 @@
-# vrcpy 介紹教學 - 輕鬆把 request 錄下來
+# vcrpy 介紹教學 - 輕鬆把 request 錄下來
 
-* [Youtube Tutorial - vrcpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
+* [Youtube Tutorial - vcrpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
 
 建議搭配影片服用:smile:
 
@@ -12,7 +12,7 @@
 
 再去讀那個文件檔, 這可能是一種方法, 但有沒有更好的方法呢:question:
 
-當然有, 就是今天要介紹的 `vrcpy`:smile:
+當然有, 就是今天要介紹的 `vcrpy`:smile:
 
 官方文件可參考 [https://vcrpy.readthedocs.io/en/latest/installation.html](https://vcrpy.readthedocs.io/en/latest/installation.html)
 
@@ -50,4 +50,4 @@ demo()
 
 你就只能刪掉錄下來的 vcr_cassettes, 重新錄一次即可.
 
-這個 `vrcpy` 很方便, 推薦大家有空看看他的文件, 它也可以整合你的測試.
+這個 `vcrpy` 很方便, 推薦大家有空看看他的文件, 它也可以整合你的測試.
