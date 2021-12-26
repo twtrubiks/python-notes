@@ -39,6 +39,54 @@ def greeting(name: str) -> str:
 
 這邊只提最基本的概念, 因為他的東西確實不少, 大家可以參考官方文章 Type Hints [pep-0484](https://www.python.org/dev/peps/pep-0484/).
 
+
+再來看個範例
+
+```python
+from typing import Dict, List, Optional
+
+
+def fun1(my_dict: Dict[int, str]) -> Optional[List[str]]:
+    return list(my_dict.values()) if my_dict else None
+```
+
+`my_dict: Dict[int, str]` dict, 代表 key 必須是 int, value 必須是 str.
+
+`Optional[X]` 等於 `Union[X, None]` 代表可以接受 X 或是 None.
+
+`Optional[List[str]]` 等於 `Union[List[str], None]` 代表會回傳 `List[str]` 或 None.
+
+
+這邊補充說明一下 `from __future__ import annotations`,
+
+```python
+from __future__ import annotations
+
+class Person:
+    def __init__(self, name: str, action: Action) -> None:
+        self.name = name
+        self.action = action
+
+class Action:
+    def __init__(self, name: str) -> None:
+        self.name = name
+```
+
+如果上方這段 code 沒有 `from __future__ import annotations`, 執行時會出現錯誤
+
+```text
+Exception has occurred: NameError
+name 'Action' is not defined
+```
+
+需要透過它來將全部的 annotations 轉化成文字.
+
+官方說明如下,
+
+```text
+A compromise is possible where a __future__ import could enable turning all annotations in a given module into string literals
+```
+
 ### Type comments
 
 ```python
