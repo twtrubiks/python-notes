@@ -1,6 +1,6 @@
 # commitizen and pre-commit 教學
 
-[Youtube Tutorial - commitizen 和 pre-commit 套件介紹](https://youtu.be/BSoe5c0nXhw)
+[Youtube Tutorial - commitizen 和 pre-commit 套件介紹](https://youtu.be/hdDwy8wb5v8)
 
 今天要介紹兩個東西, 分別是 commitizen 和 pre-commit
 
