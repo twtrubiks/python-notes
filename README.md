@@ -62,6 +62,10 @@ Python Notes 學習筆記 📝
 
 [json_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/json_tutorial.py) - json.loads()
 
+[convert_class_object_to_json.py](https://github.com/twtrubiks/python-notes/blob/master/convert_class_object_to_json.py)
+
+[convert_json_to_class_object.py](https://github.com/twtrubiks/python-notes/blob/master/convert_json_to_class_object.py)
+
 [kwargs.py](https://github.com/twtrubiks/python-notes/blob/master/kwargs.py) - **kwargs , *arg - [youtube tutorial - What is **kwargs  *args](https://youtu.be/UwhbFxLADmE)
 
 [lambda.py](https://github.com/twtrubiks/python-notes/blob/master/lambda.py) - lambda
