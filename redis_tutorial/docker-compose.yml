@@ -1,0 +1,14 @@
+version: '3.5'
+
+services:
+  tmp-cache:
+    image: redis
+    container_name: tmp-redis
+    restart: always
+    ports:
+      - '6379:6379'
+    volumes:
+      - cache-tmp:/data
+volumes:
+  cache-tmp:
+    driver: local
