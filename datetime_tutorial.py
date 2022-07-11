@@ -41,6 +41,12 @@ if __name__ == "__main__":
     # number of days in month
     print('num_days: {}'.format(num_days))
 
+    # isocalendar
+    today = datetime.date.today()
+    print('today:', today)
+    print(today.isocalendar())
+    print(today.isocalendar()[1]) # 第幾周
+
     # datetime -> timestamp
     # time.mktime(t)
     # Its argument is the struct_time or full 9-tuple and it returns a floating point number,
