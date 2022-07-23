@@ -87,6 +87,16 @@ name 'Action' is not defined
 A compromise is possible where a __future__ import could enable turning all annotations in a given module into string literals
 ```
 
+### 其他範例
+
+- [TypeVar](https://github.com/twtrubiks/python-notes/blob/master/type-hints-tutorial/TypeVar_tutorial.py)
+
+- [Callable](https://github.com/twtrubiks/python-notes/blob/master/type-hints-tutorial/Callable_tutorial.py)
+
+- [kwargs args](https://github.com/twtrubiks/python-notes/blob/master/type-hints-tutorial/kwargs_args_tutorial.py)
+
+- [KeysView](https://github.com/twtrubiks/python-notes/blob/master/type-hints-tutorial/KeysView_tutorial.py)
+
 ### Type comments
 
 ```python
