@@ -30,17 +30,7 @@ def example_good_2():
         # only execute if no exceptions are raised in the try block.
         call_my()
 
-def example_1():
-    try:
-        # call_indexerror()
-        print('pass')
-    except IndexError:
-        print('IndexError')
-    finally:
-        call_my()
-
 if __name__ == "__main__":
     # example_bad()
-    # example_good_1()
+    example_good_1()
     # example_good_2()
-    example_1()

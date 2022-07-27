@@ -212,6 +212,8 @@ Python Notes 學習筆記 📝
 
 [try_except_tutorial.py](try_except_tutorial.py) - try except tutorial
 
+[try_finally_tutorial.py](try_finally_tutorial.py) - try except finally tutorial
+
 [user_defined_exceptions_tutorial.py](user_defined_exceptions_tutorial.py) - User-defined Exceptions tutorial
 
 [weakref_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/weakref_tutorial.py) - weakref tutorial
