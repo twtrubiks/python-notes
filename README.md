@@ -208,6 +208,8 @@ Python Notes 學習筆記 📝
 
 [stringio_tutorial.py](stringio_tutorial.py) - stringio tutorial
 
+[string_constants_tutorial.py](string_constants_tutorial.py) - string constants tutorial
+
 [functools_partial_tutorial.py](functools_partial_tutorial.py) - functools.partial tutorial
 
 [try_except_tutorial.py](try_except_tutorial.py) - try except tutorial
@@ -217,6 +219,8 @@ Python Notes 學習筆記 📝
 [user_defined_exceptions_tutorial.py](user_defined_exceptions_tutorial.py) - User-defined Exceptions tutorial
 
 [weakref_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/weakref_tutorial.py) - weakref tutorial
+
+[dataclasses_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/dataclasses_tutorial.py) - dataclasses tutorial
 
 [mock_tutorial](https://github.com/twtrubiks/python-notes/blob/master/mock_tutorial) - mock 教學
 

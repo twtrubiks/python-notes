@@ -1,5 +1,7 @@
 # ref
 # https://docs.python.org/3.8/library/typing.html#typing.Callable
+# Callable[..., ReturnType]
+# A plain Callable is equivalent to Callable[..., Any]
 
 from typing import Callable
 
