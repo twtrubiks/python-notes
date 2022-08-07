@@ -108,8 +108,6 @@ Python Notes 學習筆記 📝
 
 [Enum_tutorial.py](Enum_tutorial.py)- Enum tutorial
 
-[__str__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__str__tutorial.py) - `__str__`  tutorial
-
 [strtobool_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/strtobool_tutorial.py) - strtobool
 
 [underscore_variable.py](https://github.com/twtrubiks/python-notes/blob/master/underscore_variable.py) -  underscore variable
@@ -133,8 +131,6 @@ Python Notes 學習筆記 📝
 [suppress_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/suppress_tutorial.py) - context manager - suppress - [youtube tutorial - python 教學 - 什麼是 suppress](https://youtu.be/t4FbMd4n4rE)
 
 [configparser_tutorial](https://github.com/twtrubiks/python-notes/blob/master/configparser_tutorial) - ConfigParser tutorial，可參考 [https://docs.python.org/3/library/configparser.html](https://docs.python.org/3/library/configparser.html)
-
-[__len__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__len__tutorial.py) - `__len__` tutorial
 
 [decimal_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decimal_tutorial.py) - decimal tutorial
 
@@ -184,7 +180,19 @@ Python Notes 學習筆記 📝
 
 [random_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/random_tutorial.py) - random tutorial
 
+[__str__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__str__tutorial.py) - `__str__`  tutorial
+
+[__len__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__len__tutorial.py) - `__len__` tutorial
+
 [__call__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__call__tutorial.py) - `__call__` tutorial - [youtube tutorial - What is the `__call__` in python](https://youtu.be/YIstPYG15IA)
+
+[__getattr__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__getattr__tutorial.py) - `__getattr__` and `__getattribute__` tutorial
+
+[__getitem__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__getitem__tutorial.py) - `__getitem__` and `__setitem__` tutorial
+
+[__new__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__new__tutorial.py) - `__new__` tutorial
+
+`__get__tutorial.py` - 參考 [what_is_the_Descriptor](https://github.com/twtrubiks/fluent-python-notes/tree/master/what_is_the_Descriptor)
 
 [queue_tutorial.py](queue_tutorial.py) - queue tutorial
 
@@ -192,7 +200,7 @@ Python Notes 學習筆記 📝
 
 [str_startswith_tutorial.py](str_startswith_tutorial.py) - str.startswith() tutorial
 
-[logging_tutorial.py](logging_tutorial.py)- logging tutorial
+[logging_tutorial.py](logging_tutorial.py) - logging tutorial
 
 [operator_add_tutorial.py](operator_add_tutorial.py) - operator.add tutorial
 
