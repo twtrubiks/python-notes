@@ -1,5 +1,14 @@
 # dict.get(key, default=None)
 
+def example_1():
+    # tuple 可以當作 dict 的 key
+    my_dict_1 = {(1, 2): 5, (3, 4): 6, (5, 6): 7}
+    print(my_dict_1[(1, 2)])
+
+    # equal
+    my_dict_2 = {1: {2: 5}}
+    print(my_dict_2[1][2])
+
 if __name__ == "__main__":
     dict_data = {'Name': 'twtrubiks', 'Age': 18}
 
@@ -21,3 +30,4 @@ if __name__ == "__main__":
     numbers = [1, 2, 3]
     my_dict = {number: number * 2 for number in numbers}
     print(my_dict)  # {1: 2, 2: 4, 3: 6}
+    example_1()

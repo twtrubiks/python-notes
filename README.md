@@ -22,6 +22,8 @@ Python Notes 學習筆記 📝
 
 [str_find_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/str_find_tutorial.py) - str_find tutorial
 
+[rjust_ljust_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/rjust_ljust_tutorial.py) - str rjust ljust tutorial
+
 [attribute_obj.py](https://github.com/twtrubiks/python-notes/blob/master/attribute_obj.py) - setattr() , getattr() , hasattr()
 
 [check_is_in_list.py](https://github.com/twtrubiks/python-notes/blob/master/check_is_in_list.py) -  檢查目標是否在 list 裡
