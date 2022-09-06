@@ -40,6 +40,9 @@ if __name__ == "__main__":
     # sort list with key
     sortedList = sorted(random, key=sort_by_self)
     sortedList_random = sorted(random, key=lambda x: x[1])
+    # euqal
+    # from operator import itemgetter
+    # sortedList_random = sorted(random, key=itemgetter(1))
 
     print('sortedList: {}'.format(sortedList))
     print('sortedList_random: {}'.format(sortedList_random))

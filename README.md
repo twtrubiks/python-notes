@@ -297,7 +297,7 @@ Python Notes 學習筆記 📝
 
 [isort](https://github.com/PyCQA/isort) - 排序 import 套件
 
-[pipx](https://github.com/pypa/pipx/) - 類似 linux 中的 apt, 更方便管理套件. - [youtube tutorial - python 套件介紹 - pipx, flake8, black, isort](https://youtu.be/9cXDjWJhjsU)
+[pipx](https://github.com/pypa/pipx/) - 類似 linux 中的 apt, 更方便管理套件. - [youtube tutorial - python 套件介紹](https://youtu.be/9cXDjWJhjsU)
 
 指定 python 版本
 
@@ -312,6 +312,14 @@ pipx list
 ```
 
 [commitizen and pre-commit](commitizen_pre_commit_tutorial) - 規格化 commit 以及 pre-commit
+
+[pip-audit](https://pypi.org/project/pip-audit/) - 檢查 packages 安全性.
+
+首先, 不要用 sudo/admin 下載 packages.
+
+`pip install pip-audit`
+
+使用方法很簡單, `pip-audit --fix` 直接幫你更新有問題的 packages.
 
 ## 如何使用
 
