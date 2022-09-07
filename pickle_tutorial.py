@@ -1,4 +1,20 @@
-# ref. https://docs.python.org/3/library/pickle.html
+"""
+The pickle module implements binary protocols for serializing and de-serializing a Python object structure.
+
+https://docs.python.org/3/library/pickle.html
+
+Warning
+
+The pickle module is not secure. Only unpickle data you trust.
+
+It is possible to construct malicious pickle data which will execute arbitrary code during unpickling. Never unpickle data that could have come from an untrusted source, or that could have been tampered with.
+
+Consider signing data with hmac if you need to ensure that it has not been tampered with.
+
+Safer serialization formats such as json may be more appropriate if you are processing untrusted data. See Comparison with json.
+
+"""
+
 import pickle
 
 '''

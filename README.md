@@ -156,6 +156,8 @@ Python Notes 學習筆記 📝
 
 [pickle_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/pickle_tutorial.py) - pickle tutorial
 
+[__reduce__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__reduce__tutorial.py) - `__reduce__` tutorial
+
 [zipfile_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/zipfile_tutorial.py) - zipfile tutorial
 
 [unicodedata_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/unicodedata_tutorial.py) - unicodedata ( control character ) tutorial
