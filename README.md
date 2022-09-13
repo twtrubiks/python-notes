@@ -238,7 +238,9 @@ Python Notes 學習筆記 📝
 
 [mock_tutorial](https://github.com/twtrubiks/python-notes/blob/master/mock_tutorial) - mock 教學
 
-[redis_tutorial](https://github.com/twtrubiks/python-notes/tree/master/redis_tutorial) -redis 教學
+[redis_tutorial](https://github.com/twtrubiks/python-notes/tree/master/redis_tutorial) - redis 教學
+
+[pika_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pika_tutorial) - pika for Rabbitmq 教學
 
 ## 觀念
 
