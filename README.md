@@ -242,6 +242,8 @@ Python Notes 學習筆記 📝
 
 [pika_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pika_tutorial) - pika for Rabbitmq 教學
 
+[asyico_tutorial](https://github.com/twtrubiks/python-notes/tree/master/asyico_tutorial) - asyico 教學
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
