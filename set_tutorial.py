@@ -11,7 +11,20 @@ if __name__ == "__main__":
     print('set_seqs:', set_seqs)
     set_seqs.add('test1')
     print('set_seqs:', set_seqs)
+
+    '''
+    remove(elem)
+        Remove element elem from the set. Raises KeyError if elem is not contained in the set.
+    '''
     set_seqs.remove('test1')
+    print('set_seqs:', set_seqs)
+    # set_seqs.remove('test1') ## Raises KeyError
+
+    '''
+    discard(elem)
+        Remove element elem from the set if it is present.
+    '''
+    set_seqs.discard('test1')
     print('set_seqs:', set_seqs)
 
     set_1 = {"a", "b", "c", "d"}
