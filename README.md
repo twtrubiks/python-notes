@@ -126,6 +126,8 @@ Python Notes 學習筆記 📝
 
 [decorator_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/decorator_tutorial.py) - decorator 裝飾器
 
+[decorator_inspect.py](https://github.com/twtrubiks/python-notes/blob/master/decorator_inspect.py) - decorator inspect tutorial
+
 [with_as_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/with_as_tutorial.py) - with as tutorial
 
 [context_manager_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/context_manager_tutorial.py) - context manager
