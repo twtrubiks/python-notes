@@ -66,6 +66,10 @@ pip3 install redis
 
 [redis_pub_sub.py](https://github.com/twtrubiks/python-notes/tree/master/redis_tutorial/redis_pub_sub.py) - redis_pub_sub example
 
+## redis autocomplete
+
+[redis_autocomplete.py](https://github.com/twtrubiks/python-notes/tree/master/redis_tutorial/redis_autocomplete.py)
+
 ## 其他
 
 如果你不是用 docker 建立 redis, 是使用安裝在本機上的,
