@@ -246,6 +246,8 @@ Python Notes 學習筆記 📝
 
 [pika_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pika_tutorial) - pika for Rabbitmq 教學
 
+[thread_process_tutorial](https://github.com/twtrubiks/python-notes/tree/master/thread_process_tutorial) - thread, process 教學
+
 [asyico_tutorial](https://github.com/twtrubiks/python-notes/tree/master/asyico_tutorial) - asyico 教學
 
 [aiohttp_tutorial](https://github.com/twtrubiks/python-notes/tree/master/aiohttp_tutorial) - aiohttp 教學
