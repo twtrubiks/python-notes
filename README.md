@@ -16,6 +16,8 @@ Python Notes 學習筆記 📝
 
 ## 筆記
 
+[global_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/global_tutorial.py) - global tutorial
+
 [repr_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/repr_tutorial.py) - repr tutorial
 
 [assert_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/assert_tutorial.py) - assert tutorial
@@ -234,7 +236,7 @@ Python Notes 學習筆記 📝
 
 [weakref_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/weakref_tutorial.py) - weakref tutorial
 
-[assignment_expressions_tutorial.md](assignment_expressions_tutorial.md) - Assignment expressions tutorial
+[assignment_expressions_tutorial](assignment_expressions_tutorial.md) - Assignment expressions tutorial
 
 [dataclasses_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/dataclasses_tutorial.py) - dataclasses tutorial
 
