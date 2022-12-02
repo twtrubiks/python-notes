@@ -236,6 +236,8 @@ Python Notes 學習筆記 📝
 
 [weakref_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/weakref_tutorial.py) - weakref tutorial
 
+[hashlib_tutorial](https://github.com/twtrubiks/python-notes/blob/master/hashlib_tutorial) - hashlib tutorial
+
 [assignment_expressions_tutorial](assignment_expressions_tutorial.md) - Assignment expressions tutorial
 
 [dataclasses_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/dataclasses_tutorial.py) - dataclasses tutorial
