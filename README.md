@@ -170,6 +170,8 @@ Python Notes 學習筆記 📝
 
 [re_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/re_tutorial.py) - re tutorial
 
+[fnmatch_tutorial](https://github.com/twtrubiks/python-notes/blob/master/fnmatch_tutorial) - fnmatch tutorial
+
 [is_integer_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/is_integer_tutorial.py) - float is_integer tutorial  ( TestCase )
 
 [remove_trailing_zeros_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/remove_trailing_zeros_tutorial.py) - decimal remove trailing zeros tutorial ( TestCase )
