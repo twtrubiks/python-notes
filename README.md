@@ -212,6 +212,8 @@ Python Notes 學習筆記 📝
 
 [logging_tutorial.py](logging_tutorial.py) - logging tutorial
 
+[operator_or_xor_tutorial.py](operator_or_xor_tutorial.py) - or xor tutorial
+
 [operator_add_tutorial.py](operator_add_tutorial.py) - operator.add tutorial
 
 [operator_mul_tutorial.py](operator_mul_tutorial.py) - operator.mul tutorial
