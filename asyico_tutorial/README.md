@@ -1,5 +1,7 @@
 # Asyncio
 
+Use asyncio when you can, threading when you must.
+
 Asyncio 適合 I/O-bound,
 
 遇到 I/O-bound, 先考慮 Asyncio, 如果不適合再考慮 threading,
@@ -100,3 +102,7 @@ async def something(num):
 ## Reference
 
 * [https://docs.python.org/3/library/asyncio.html](https://docs.python.org/3/library/asyncio.html)
+
+* [Speed Up Your Python Program With Concurrency](https://realpython.com/python-concurrency/#when-is-concurrency-useful)
+
+* [AsyncIO, Threading, and Multiprocessing in Python](https://medium.com/analytics-vidhya/asyncio-threading-and-multiprocessing-in-python-4f5ff6ca75e8)

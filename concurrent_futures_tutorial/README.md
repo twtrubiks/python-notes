@@ -70,6 +70,28 @@ python3 demo_ThreadPoolExecutor_aviod_RaceConditions.py
 python3 demo_ProcessPoolExecutor_submit.py
 ```
 
+關於 `max_workers` 預設的說明, 官方文件有提到
+
+```txt
+Changed in version 3.8: Default value of max_workers is changed to min(32, os.cpu_count() + 4). This default value preserves at least 5 workers for I/O bound tasks. It utilizes at most 32 CPU cores for CPU bound tasks which release the GIL. And it avoids using very large resources implicitly on many-core machines.
+```
+
+### map
+
+透過迭代的方式
+
+執行 [demo_ProcessPoolExecutor_map.py](demo_ProcessPoolExecutor_map.py)
+
+```cmd
+python3 demo_ProcessPoolExecutor_map.py
+```
+
+關於 map 中的 chunksize, 文件說明如下
+
+```txt
+For very long iterables, using a large value for chunksize can significantly improve performance compared to the default size of 1. With ThreadPoolExecutor, chunksize has no effect.
+```
+
 ## 延伸閱讀
 
 * [Asyncio](https://github.com/twtrubiks/python-notes/tree/master/asyico_tutorial)
