@@ -104,6 +104,8 @@ Python Notes 學習筆記 📝
 
 [iter_another_trick_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/iter_another_trick_tutorial.py) - iter another trick tutorial
 
+[iterator_in_tutorial](https://github.com/twtrubiks/python-notes/blob/master/iterator_in_tutorial.md) - in 也會消費 iterator
+
 [__iter__tutorial](https://github.com/twtrubiks/python-notes/blob/master/__iter__tutorial.py) - `__iter__` tutorial
 
 [yield_tutorial.py](yield_tutorial.py)- yield tutorial
