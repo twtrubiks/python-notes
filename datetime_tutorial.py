@@ -47,13 +47,18 @@ if __name__ == "__main__":
     print(today.isocalendar())
     print(today.isocalendar()[1]) # 第幾周
 
-    # datetime -> timestamp
+    # datetime -> timestamp(10-digit)
     # time.mktime(t)
     # Its argument is the struct_time or full 9-tuple and it returns a floating point number,
     # for compatibility with time().
     timestamp = time.mktime(now.timetuple())
     print('timestamp : {}'.format(timestamp))
 
-    # timestamp -> datetime
+    # timestamp(10-digit) -> datetime
     datetime_date = datetime.datetime.fromtimestamp(timestamp)
+    print('datetime : {}'.format(datetime_date))
+
+    # millisecond-precise timestamp(13-digit) -> datetime
+    timestamp = 1671094228814 # 13-digit
+    datetime_date = datetime.datetime.fromtimestamp(int(timestamp)/1000)
     print('datetime : {}'.format(datetime_date))
