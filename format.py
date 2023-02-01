@@ -1,4 +1,4 @@
-import datetime
+from datetime import datetime
 
 # ref.  https://pyformat.info/
 if __name__ == "__main__":
@@ -34,6 +34,6 @@ if __name__ == "__main__":
     print('{d[4]} {d[5]}'.format(d=data))
 
     # datetime format
-    print('{:%Y-%m-%d %H:%M}'.format(datetime.datetime(2017, 2, 3, 4, 5)))
+    print('{:%Y-%m-%d %H:%M}'.format(datetime(2017, 2, 3, 4, 5)))
     DATETIME_FORMAT = '%Y-%m-%d %H:%M'
-    print('{:{}}'.format(datetime.datetime(2017, 2, 3, 4, 5), DATETIME_FORMAT))
+    print('{:{}}'.format(datetime(2017, 2, 3, 4, 5), DATETIME_FORMAT))

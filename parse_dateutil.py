@@ -1,6 +1,6 @@
 from dateutil.parser import parse
 from dateutil.relativedelta import relativedelta
-import datetime
+from datetime import datetime
 
 if __name__ == "__main__":
     '''
@@ -12,7 +12,7 @@ if __name__ == "__main__":
     '''
     ref. https://dateutil.readthedocs.io/en/stable/relativedelta.html
     '''
-    now = datetime.datetime.now()
+    now = datetime.now()
     now_plus_1_month = now + relativedelta(months=+1)
     now_minus_1_month = now + relativedelta(months=-1)
     print('now', now)

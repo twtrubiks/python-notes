@@ -1,28 +1,28 @@
-import datetime
 import time
+from datetime import datetime, date, timedelta , time as dtime
 from calendar import monthrange
 
 if __name__ == "__main__":
-    start_date = datetime.date(2017, 3, 1)
-    end_date = datetime.date(2017, 3, 2)
+    start_date = date(2017, 3, 1)
+    end_date = date(2017, 3, 2)
     print(type(start_date))
     print('start_date: {}'.format(start_date))
     # total_seconds()
     total_time = (end_date - start_date).total_seconds()
     print('total_time: {}'.format(total_time))
 
-    # datetime.timedelta
-    print('datetime.timedelta : {}'.format(datetime.timedelta(hours=28)))
+    # timedelta
+    print('timedelta : {}'.format(timedelta(hours=28)))
 
-    now = datetime.datetime.now()
+    now = datetime.now()
     print('now: {}'.format(now))
-    yestoday = now - datetime.timedelta(days=1)
+    yestoday = now - timedelta(days=1)
     print('yestoday: {}'.format(yestoday))
 
-    # datetime.datetime.combine
-    combine_time = datetime.datetime.combine(datetime.date(2017, 3, 1), datetime.time(18, 23, 50))
+    # datetime.combine
+    combine_time = datetime.combine(date(2017, 3, 1), dtime(18, 23, 50))
     print('combine_time: {}'.format(combine_time))
-    combine_time_2 = datetime.datetime.combine(datetime.date(2017, 3, 1), datetime.time.max)
+    combine_time_2 = datetime.combine(date(2017, 3, 1), dtime.max)
     print('combine_time_2: {}'.format(combine_time_2))
 
     # strftime ref. http://strftime.org/
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     print('num_days: {}'.format(num_days))
 
     # isocalendar
-    today = datetime.date.today()
+    today = date.today()
     print('today:', today)
     print(today.isocalendar())
     print(today.isocalendar()[1]) # 第幾周
@@ -55,10 +55,10 @@ if __name__ == "__main__":
     print('timestamp : {}'.format(timestamp))
 
     # timestamp(10-digit) -> datetime
-    datetime_date = datetime.datetime.fromtimestamp(timestamp)
+    datetime_date = datetime.fromtimestamp(timestamp)
     print('datetime : {}'.format(datetime_date))
 
     # millisecond-precise timestamp(13-digit) -> datetime
     timestamp = 1671094228814 # 13-digit
-    datetime_date = datetime.datetime.fromtimestamp(int(timestamp)/1000)
+    datetime_date = datetime.fromtimestamp(int(timestamp)/1000)
     print('datetime : {}'.format(datetime_date))
