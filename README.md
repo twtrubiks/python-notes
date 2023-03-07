@@ -262,6 +262,8 @@ Python Notes 學習筆記 📝
 
 [aiohttp_tutorial](https://github.com/twtrubiks/python-notes/tree/master/aiohttp_tutorial) - aiohttp 教學
 
+[pathlib_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/pathlib_tutorial.py) - pathlib 教學
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
