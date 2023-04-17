@@ -144,7 +144,9 @@ Python Notes 學習筆記 📝
 
 [copy_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/copy_tutorial.py) - copy_tutorial
 
-[sum_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/sum_tutorial.py) -sum_tutorial
+[sum_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/sum_tutorial.py) - sum_tutorial
+
+[math_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/math_tutorial.py) - math_tutorial
 
 [built-in-functions_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/built-in-functions_tutorial.py) - Built-in Functions tutorial
 
