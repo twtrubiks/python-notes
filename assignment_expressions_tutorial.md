@@ -1,5 +1,7 @@
 # PEP 572 – Assignment Expressions
 
+* [Youtube Tutorial - 海象運算符 PEP 572 – Assignment Expressions - python3](https://youtu.be/X_1o8e-DjH0)
+
 注意, 至少要 python3.8 才有這個語法,
 
 Assignment Expressions 又被稱為 海象運算符 `:=`

@@ -246,7 +246,7 @@ Python Notes 學習筆記 📝
 
 [hashlib_tutorial](https://github.com/twtrubiks/python-notes/blob/master/hashlib_tutorial) - hashlib tutorial
 
-[assignment_expressions_tutorial](assignment_expressions_tutorial.md) - Assignment expressions tutorial
+[assignment_expressions_tutorial](assignment_expressions_tutorial.md) - [Youtube Tutorial - 海象運算符 PEP 572 – Assignment Expressions - python3](https://youtu.be/X_1o8e-DjH0)
 
 [dataclasses_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/dataclasses_tutorial.py) - dataclasses tutorial
 
