@@ -1,10 +1,16 @@
-from enum import Enum
+from enum import Enum, unique
 
 
 class Color(Enum):
     red = 1
     green = 2
     blue = 3
+
+# @unique # 不能重複定義
+# class ColorDuplicate(Enum):
+#     red = 1
+#     green = 2
+#     blue = 2
 
 
 def example_1():
@@ -32,4 +38,4 @@ def example_2():
 
 if __name__ == "__main__":
     example_1()
-    example_2()
+    # example_2()
