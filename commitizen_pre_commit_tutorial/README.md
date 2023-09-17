@@ -49,16 +49,32 @@ pip install pre-commit
 ```yaml
 repos:
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v2.20.0
+    rev: v3.9.0
     hooks:
       - id: commitizen
         stages: [commit-msg]
+
+  - repo: https://github.com/python/black
+    rev: 23.9.1
+    hooks:
+      - id: black
+
+  - repo: https://github.com/pycqa/flake8
+    rev: 6.1.0
+    hooks:
+      - id: flake8
 ```
 
 最後安裝你的 git hook scripts
 
 ```cmd
 pre-commit install --hook-type commit-msg
+```
+
+也可以直接執行以下一次全部安裝
+
+```cmd
+pre-commit install
 ```
 
 Install the git hook scripts
@@ -69,7 +85,7 @@ Install the git hook scripts
 
 而是用一般的 commit 時, 就會跳出錯誤提醒你
 
-(第一次會慢一點, 之後就會很快了:smile:)
+( 第一次會慢一點, 之後就會很快了:smile: )
 
 ![img](https://i.imgur.com/I7vL7KT.png)
 
