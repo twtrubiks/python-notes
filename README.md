@@ -272,6 +272,8 @@ Python Notes 學習筆記 📝
 
 [pathlib_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/pathlib_tutorial.py) - pathlib 教學
 
+[colorama_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/colorama_tutorial.py) - 讓 python 輸出 terminal 有顏色
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)
