@@ -2,7 +2,7 @@ import logging
 
 '''
 ref. https://docs.python.org/3/library/logging.html
-Level , DEBUG < INFO < WARNING < ERROR < CRITICAL
+Level DEBUG < INFO < WARNING < ERROR < CRITICAL
 '''
 
 
@@ -17,8 +17,8 @@ def ex1():
 
 def ex2():
     logging.error('test')
-    log1 = logging.getLogger('ma_app')
-    log2 = logging.getLogger()
+    log1 = logging.getLogger('my_app')
+    log2 = logging.getLogger(__name__)
     log1.warning('I told you')
     log2.warning('warning message')
 
@@ -35,13 +35,14 @@ def ex3():
 
 def ex4():
     # multiple-handlers-and-formatter
-    logger = logging.getLogger('my_app')
+    logger = logging.getLogger(__name__)
     logger.setLevel(logging.DEBUG)
 
     log_file = 'my_test_logger.log'
     f_log = logging.FileHandler(log_file, mode='w')
     f_log.setLevel(logging.ERROR)
 
+    # 設定 console 並且定義為 DEBUG
     c_log = logging.StreamHandler()
     c_log.setLevel(logging.DEBUG)
 

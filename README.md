@@ -228,6 +228,8 @@ Python Notes 學習筆記 📝
 
 [itertools_tee_tutorial.py](itertools_tee_tutorial.py) - itertools.tee tutorial
 
+[base64_tutorial.py](base64_tutorial.py) - base64 encode decode tutorial
+
 [bytesio_tutorial.py](bytesio_tutorial.py) - bytesio tutorial
 
 [stringio_tutorial.py](stringio_tutorial.py) - stringio tutorial
