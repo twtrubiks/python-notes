@@ -254,6 +254,8 @@ Python Notes 學習筆記 📝
 
 [dataclasses_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/dataclasses_tutorial.py) - dataclasses tutorial
 
+[importlib_tutorial](https://github.com/twtrubiks/python-notes/blob/master/importlib_tutorial) - 動態 import lib
+
 [mock_tutorial](https://github.com/twtrubiks/python-notes/blob/master/mock_tutorial) - mock 教學
 
 [redis_tutorial](https://github.com/twtrubiks/python-notes/tree/master/redis_tutorial) - redis 教學
@@ -368,7 +370,7 @@ pipx list
 
 ## 執行環境
 
-* Python 3.8.2
+* Python 3.9
 
 ## Reference
 
