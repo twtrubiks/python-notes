@@ -274,6 +274,8 @@ Python Notes 學習筆記 📝
 
 [colorama_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/colorama_tutorial.py) - 讓 python 輸出 terminal 有顏色
 
+[marshmallow_tutorial](https://github.com/twtrubiks/python-notes/tree/master/marshmallow_tutorial) - 序列化, 反序列化, 驗證資料格式
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)

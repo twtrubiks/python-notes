@@ -1,0 +1,12 @@
+{
+    "name": "dunderscore",
+    "version": "INVALID",
+    "homepage": "INVALID",
+    "description": "The Pythonic JavaScript toolkit",
+    "users": {
+      "name": "alan",
+      "email": "test123"
+    },
+    "license": "MIT"
+
+  }
