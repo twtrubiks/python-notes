@@ -250,6 +250,8 @@ Python Notes 學習筆記 📝
 
 [bcrypt_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/bcrypt_tutorial.py) - bcrypt hash salt tutorial
 
+[hmac_sha256_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/hmac_sha256_tutorial.py) - hmac sha256 tutorial
+
 [pycryptodome_tutorial](https://github.com/twtrubiks/python-notes/blob/master/pycryptodome_tutorial) - pycryptodome 完成 RSA 私鑰簽名, 公鑰驗簽
 
 [assignment_expressions_tutorial](assignment_expressions_tutorial.md) - [Youtube Tutorial - 海象運算符 PEP 572 – Assignment Expressions - python3](https://youtu.be/X_1o8e-DjH0)
