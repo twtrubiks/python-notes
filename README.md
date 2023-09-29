@@ -331,6 +331,8 @@ Python Notes 學習筆記 📝
 
 [freezegun_tutorial.py](freezegun_tutorial.py) - mock datetime
 
+[faker_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/faker_tutorial.py) - 產生假資料
+
 [decorator_lib.py](decorator_lib.py) - decorator lib tutorial
 
 [pytest_tutorial](pytest_tutorial) - pytest 教學
