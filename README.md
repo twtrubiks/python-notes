@@ -280,7 +280,7 @@ Python Notes 學習筆記 📝
 
 [colorama_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/colorama_tutorial.py) - 讓 python 輸出 terminal 有顏色
 
-[marshmallow_tutorial](https://github.com/twtrubiks/python-notes/tree/master/marshmallow_tutorial) - 序列化, 反序列化, 驗證資料格式
+[cachetools_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/cachetools_tutorial.py) - cachetools 教學
 
 ## 觀念
 
