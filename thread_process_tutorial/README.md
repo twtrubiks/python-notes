@@ -99,6 +99,36 @@ isDaemon: True
 main thread quit
 ```
 
+這邊再給一個範例, 利用 daemon 持續更新或監控某件事情
+
+```python
+import threading
+import time
+
+def keep_updates():
+    """
+    保持更新
+    """
+    print('run keep_updates')
+    count = 0
+    while True:
+        try:
+            count += 1
+            # do somethings......
+            print(count)
+            time.sleep(0.5)
+        except Exception:
+            print('Exception')
+            time.sleep(10)
+
+if __name__ == "__main__":
+    monitor_thread = threading.Thread(target=keep_updates, daemon=True)
+    monitor_thread.start()
+
+    # 等待主 thread 結束, 避免退出
+    monitor_thread.join()
+```
+
 ### lock
 
 當同時有很多個 Thread 要用到同一個資料時，
