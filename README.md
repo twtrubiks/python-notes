@@ -162,6 +162,8 @@ Python Notes 學習筆記 📝
 
 [escape_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/escape_tutorial.py) - html.parser ( escape )  tutorial
 
+[urllib_parse_quote_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/urllib_parse_quote_tutorial.py) - urllib.parse quote tutorial
+
 [pickle_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/pickle_tutorial.py) - pickle tutorial
 
 [__reduce__tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/__reduce__tutorial.py) - `__reduce__` tutorial
