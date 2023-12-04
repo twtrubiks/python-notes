@@ -28,3 +28,11 @@ if __name__ == "__main__":
 
     data_dump = json.dumps(data)
     print('json.dumps:', data_dump)
+
+    # 排除空格
+    print(json.dumps(data, separators=(",", ":")))
+
+    ascii_data = {"name": "你好", "age": 10}
+    # 将 ensure_ascii 设置为 False，以保留非 ASCII 字符
+    print(json.dumps(ascii_data, ensure_ascii=False))
+    print(json.dumps(ascii_data, ensure_ascii=True)) # dafault True
