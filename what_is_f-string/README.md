@@ -63,6 +63,31 @@ text = "World"
 'My name is Fred, my age next year is 51, my anniversary is Saturday, October 12, 1991.'
 ```
 
+### f-string 一些比較特別的用法
+
+```python
+# 向右補 0
+n = 1
+print(f"{n:0<5}") # 10000
+
+n = 12
+print(f"{n:0<5}") # 12000
+
+n = 123456
+print(f"{n:0<5}") # 123456
+
+
+# 向左補 0
+n = 1
+print(f"{n:0>5}") # 00001
+
+n = 12
+print(f"{n:0>5}") # 00012
+
+n = 123456
+print(f"{n:0>5}") # 123456
+```
+
 ## speed
 
 使用 timeit 觀察速度，
