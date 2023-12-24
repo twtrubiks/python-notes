@@ -18,6 +18,8 @@ Python Notes 學習筆記 📝
 
 [global_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/global_tutorial.py) - global tutorial
 
+[globals_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/globals_tutorial.py) - globals tutorial
+
 [repr_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/repr_tutorial.py) - repr tutorial
 
 [assert_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/assert_tutorial.py) - assert tutorial
