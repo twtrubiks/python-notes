@@ -258,6 +258,8 @@ Python Notes 學習筆記 📝
 
 [pycryptodome_tutorial](https://github.com/twtrubiks/python-notes/blob/master/pycryptodome_tutorial) - pycryptodome 完成 RSA 私鑰簽名, 公鑰驗簽
 
+[aes_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/pycryptodome_tutorial/aes_tutorial.py) - pycryptodome 完成 AES CBC 加解密
+
 [pyjwt_tutorial](https://github.com/twtrubiks/python-notes/blob/master/pyjwt_tutorial.py) - jwt 教學
 
 [pyotp](pyotp_tutorial.md) - 實作 two-factor (2FA) or multi-factor (MFA)
