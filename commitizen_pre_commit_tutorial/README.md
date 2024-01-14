@@ -49,21 +49,33 @@ pip install pre-commit
 ```yaml
 repos:
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.9.0
+    rev: v3.12.0
     hooks:
       - id: commitizen
+      - id: commitizen-branch
         stages: [commit-msg]
 
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+    -   id: check-yaml
+    -   id: end-of-file-fixer
+    -   id: trailing-whitespace
+
   - repo: https://github.com/python/black
-    rev: 23.9.1
+    rev: 23.12.1
     hooks:
       - id: black
 
   - repo: https://github.com/pycqa/flake8
-    rev: 6.1.0
+    rev: 7.0.0
     hooks:
       - id: flake8
 ```
+
+這邊加入 [pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks),
+
+這裡有不少可以直接用的工具.
 
 最後安裝你的 git hook scripts
 
