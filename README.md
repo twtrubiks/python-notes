@@ -256,7 +256,7 @@ Python Notes 學習筆記 📝
 
 [hmac_sha256_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/hmac_sha256_tutorial.py) - hmac sha256 tutorial
 
-[pycryptodome_tutorial](https://github.com/twtrubiks/python-notes/blob/master/pycryptodome_tutorial) - pycryptodome 完成 RSA 私鑰簽名, 公鑰驗簽
+[pycryptodome_tutorial](https://github.com/twtrubiks/python-notes/blob/master/pycryptodome_tutorial) - pycryptodome 完成 RSA 簽名驗簽, RSA 加解密
 
 [aes_tutorial.py](https://github.com/twtrubiks/python-notes/blob/master/pycryptodome_tutorial/aes_tutorial.py) - pycryptodome 完成 AES CBC 加解密
 
