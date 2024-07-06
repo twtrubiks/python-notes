@@ -4,7 +4,7 @@
 
 [如何使用 venv 建立 virtual environments 📝](https://github.com/twtrubiks/python-creation-of-virtual-environments)
 
-但最近發現 pyenv,
+但最近發現 pyenv(可以管理多版本),
 
 使用起來感覺更上手, 這邊簡單介紹一下
 
@@ -48,12 +48,18 @@ pyenv install --list
 pyenv install 3.9.18
 ```
 
-如果你在安裝環境的時候, 出現一些錯誤,
+💢 開始建立環境前,
 
-就是去把對應的安裝起來即可, 像是我安裝了這些
+請先安裝這個 [Suggested build environment](https://github.com/pyenv/pyenv/wiki#suggested-build-environment)
+
+不然很容易再建立的時候出錯誤,
+
+以下為 Ubuntu/Debian/Mint 的環境,
 
 ```cmd
-sudo apt install lzma liblzma-dev python3-tk tk-dev libsqlite3-dev
+sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \
+libbz2-dev libreadline-dev libsqlite3-dev curl \
+libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
 接著建立環境
@@ -67,6 +73,30 @@ pyenv virtualenv 3.9.18 test_env
 pyenv activate test_env
 ```
 
+生效作用範圍有 `shell` > `local` > `global` 可以使用,
+
+可參考 [understanding-python-version-selection](https://github.com/pyenv/pyenv?tab=readme-ov-file#understanding-python-version-selection)
+
+在目前的 shell 生效, 退出就消失了
+
+```cmd
+pyenv shell <version>
+```
+
+在當前的資料夾底下生效, 執行後目錄會多出 `.python-version` 這個檔案,
+
+```cmd
+pyenv local <version> -- automatically select whenever you are in the current directory (or its subdirectories),
+```
+
+在整個 user 底下都生效(全局改變),
+
+如果要還原(切換)可以使用 `pyenv global system`
+
+```cmd
+pyenv global <version> -- select globally for your user account
+```
+
 顯示全部安裝的 venv
 
 ```cmd
@@ -77,6 +107,14 @@ pyenv virtualenvs
 
 ![alt tag](https://i.imgur.com/uFuL1CY.png)
 
+如果想查詢目前的 command 在哪個路徑下, 可使用以下指令
+
+```cmd
+❯ pyenv which pip3
+/home/twtrubiks/.pyenv/versions/3.10.13/bin/pip3
+❯ pyenv which python3
+/home/twtrubiks/.pyenv/versions/3.10.13/bin/python3
+```
 
 刪除一個 venv
 

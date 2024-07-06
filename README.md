@@ -377,7 +377,9 @@ pipx list
 
 使用方法很簡單, `pip-audit --fix` 直接幫你更新有問題的 packages.
 
-[pyenv](pyenv_tutorial) - 更好用的 python 管理虛擬環境工具
+[pyenv](pyenv_tutorial) - 更好用的 python 管理虛擬環境工具(管理多版本)
+
+[pip-tools_tutorial](pip-tools_tutorial) - 幫你管理依賴套件的版本
 
 ## 如何使用
 

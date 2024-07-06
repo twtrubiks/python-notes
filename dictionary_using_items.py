@@ -8,6 +8,6 @@ if __name__ == "__main__":
 
     # preferred way using items()
     dictionary = {"first_name": "twt", "last_name": "rubiks"}
-
+    print(list(dictionary.items()) )
     for key, val in dictionary.items():
         print("{} = {}".format(key, val))
