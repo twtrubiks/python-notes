@@ -29,3 +29,17 @@ if __name__ == "__main__":
     random_lambda.sort(key=lambda x: x[1], reverse=True)
     print('Sorted list use def: {}'.format(random))
     print('Sorted list use lambda: {}'.format(random_lambda))
+
+
+    # sort list with key contain None
+    data = [4, 2, 6, None, 0, 8, None, 3]
+    # TypeError: '<' not supported between instances of 'NoneType' and 'int'
+    # data.sort()
+
+    # solved
+    # (x is None, x)
+    # "x is None" 先比較 None,  "x" 再比較不是 None 的值
+    data.sort(key=lambda x: (x is None, x))
+    print(data)
+    data.sort(key=lambda x: (x is None, x), reverse=True)
+    print(data)
