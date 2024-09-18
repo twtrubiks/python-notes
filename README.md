@@ -324,6 +324,8 @@ Python Notes 學習筆記 📝
 
 [type-hints-tutorial](https://github.com/twtrubiks/python-notes/tree/master/type-hints-tutorial) - PEP 484 Type Hints 介紹 - [youtube tutorial - PEP 484 Type Hints 介紹](https://youtu.be/kXB__qIz5gY)
 
+[pydantic_tutorial](pydantic_tutorial) - pydantic 介紹
+
 ## other
 
 [fibonacci numbers tutorial](fibonacci_numbers_tutorial)
