@@ -312,6 +312,8 @@ Python Notes 學習筆記 📝
 
 [what is the singledispatch](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_singledispatch)
 
+[what is the singledispatchmethod](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_singledispatchmethod)
+
 [what is the `if __name__ == '__main__'` in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_name_main_in_python)
 
 [what is private and protected attribute](https://github.com/twtrubiks/python-notes/tree/master/what_is_private_and_protected_attribute)

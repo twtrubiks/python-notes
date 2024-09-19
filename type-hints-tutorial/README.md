@@ -8,13 +8,13 @@ Type Hints [pep-0484](https://www.python.org/dev/peps/pep-0484/) 這個東西在
 
 當初我看幾乎沒甚麼人用, 於是就不理他, 時間過了那麼久之後, 我發現越來越多專案開始有用這個東西,
 
-像是我之後會介紹的 [pydantic](https://pydantic-docs.helpmanual.io/) 以及 [fastapi](https://fastapi.tiangolo.com/),
+像我介紹過得 [pydantic 教學](https://github.com/twtrubiks/python-notes/tree/master/pydantic_tutorial) 以及 [fastapi](https://fastapi.tiangolo.com/),
 
 甚至有時候看一些 source code 也都會寫 Type Hint, 所以在這邊決定寫一篇簡單的文章和大家分享.
 
 Type Hint 說簡單不簡單, 如果你沒有看他的介紹, 你當下看到有 type hint 的 python 時會覺得
 
-這是我所認知的 python 嗎？
+這是我所認知的 python 嗎 ❓
 
 例外補充一下, Type Hint 絕對不是強制性的, 根據團隊的習慣以及需求.
 

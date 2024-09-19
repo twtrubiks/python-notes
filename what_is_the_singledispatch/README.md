@@ -12,7 +12,7 @@
 
 方便之後的維護，可讀性也比較高。
 
-先來看一段很醜的 code，閱讀性差，維護很麻煩:weary:
+先來看一段很醜的 code，閱讀性差，維護很麻煩 :weary:
 
 [demo1.py](demo1.py)
 
@@ -122,11 +122,11 @@ def _(arg: int):
 
 就再寫一個 `@fun.register` 即可。
 
-相信大家一定覺得這樣整體乾淨不少，維護性以及可讀性都有提高:smile:
+相信大家一定覺得這樣整體乾淨不少，維護性以及可讀性都有提高 :smile:
 
 ## Donation
 
-如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡 :laughing:
 
 ![alt tag](https://i.imgur.com/LRct9xa.png)
 

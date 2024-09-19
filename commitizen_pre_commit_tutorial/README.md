@@ -49,28 +49,33 @@ pip install pre-commit
 ```yaml
 repos:
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.12.0
+    rev: v3.29.0
     hooks:
       - id: commitizen
       - id: commitizen-branch
         stages: [commit-msg]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.5.0
+    rev: v4.6.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 
   - repo: https://github.com/python/black
-    rev: 23.12.1
+    rev: 24.8.0
     hooks:
       - id: black
 
   - repo: https://github.com/pycqa/flake8
-    rev: 7.0.0
+    rev: 7.1.1
     hooks:
       - id: flake8
+
+  - repo: https://github.com/crate-ci/typos
+    rev: v1.24.6
+    hooks:
+      - id: typos
 ```
 
 這邊加入 [pre-commit-hooks](https://github.com/pre-commit/pre-commit-hooks),
@@ -103,6 +108,6 @@ Install the git hook scripts
 
 不只有 commitizen 可以用在 pre-commit,
 
-像是 `flake8` `black` 這些很多都可以......
+像是 `flake8` `black` 這些很多都可以,
 
-簡單說, 你可以把他想成是多一層檢查這樣:smile:
+簡單說, 你可以把他想成是多一層檢查這樣 :smile:
