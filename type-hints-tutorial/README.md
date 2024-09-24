@@ -103,6 +103,8 @@ A compromise is possible where a __future__ import could enable turning all anno
 
 - [Protocol](https://github.com/twtrubiks/python-notes/blob/master/type-hints-tutorial/Protocol_tutorial.py)
 
+- [TYPE_CHECKING](https://github.com/twtrubiks/python-notes/tree/master/type-hints-tutorial/TYPE_CHECKING_tutorial) - 說明 TYPE_CHECKING 用法
+
 ### Type comments
 
 ```python
