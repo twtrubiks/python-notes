@@ -231,7 +231,7 @@ main process quit
 
 還是 `concurrent.futures` 這部份, 基本上都可以,
 
-`concurrent.futures` 學習成本低一點:smile:
+`concurrent.futures` 學習成本低一點 :smile:
 
 ( 相對 `import threading` `import multiprocessing` 來說, 細節比較少 ).
 

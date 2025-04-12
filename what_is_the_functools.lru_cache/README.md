@@ -35,9 +35,9 @@ run very long.....
 10002
 ```
 
-發現了嗎:question:
+發現了嗎 :question:
 
-竟然只顯示一次的 run very long，不是應該要 print 出兩次嗎:question:
+竟然只顯示一次的 run very long，不是應該要 print 出兩次嗎 :question:
 
 原因就是使用了 `@functools.lru_cache()` 的關係，它會將結果快取起來，
 
@@ -96,7 +96,7 @@ if __name__ == '__main__':
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610]
 ```
 
-發現到了嗎:question:
+發現到了嗎 :question:
 
 有很多重複執行的部分，其實這些地方都是多跑的，因為其實都已經計算過了，
 
@@ -211,7 +211,7 @@ if __name__ == '__main__':
 
 ## Donation
 
-如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡 :laughing:
 
 ![alt tag](https://i.imgur.com/LRct9xa.png)
 

@@ -6,7 +6,7 @@
 
 用 pandas 也可以玩像是 database 中的 `inner join` `outer join` `left join` `right join`，
 
-大家可以直接執行程式碼（ 或看影片教學 ），這樣會比較了解:smile:
+大家可以直接執行程式碼（ 或看影片教學 ），這樣會比較了解 :smile:
 
 ```python
 df_1 = pd.DataFrame(

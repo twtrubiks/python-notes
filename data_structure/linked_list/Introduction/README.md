@@ -96,7 +96,7 @@ def traversing_recursive(lists):
 traversing_recursive(node1)
 ```
 
-Linked Lists 基礎的介紹就到這邊，未來如果有碰到 leetcode 的相關練習，會補充到這邊:smile:
+Linked Lists 基礎的介紹就到這邊，未來如果有碰到 leetcode 的相關練習，會補充到這邊 :smile:
 
 ## Reference
 
@@ -104,7 +104,7 @@ Linked Lists 基礎的介紹就到這邊，未來如果有碰到 leetcode 的相
 
 ## Donation
 
-如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡 :laughing:
 
 ![alt tag](https://i.imgur.com/LRct9xa.png)
 

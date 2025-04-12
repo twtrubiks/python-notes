@@ -6,9 +6,9 @@ Many times we open the `.py` file, and the first line at the beginning will show
 
 Ever wondered why is this :question:
 
-`#!/usr/bin/python3` is used to specify the interpreter:exclamation::exclamation:
+`#!/usr/bin/python3` is used to specify the interpreter :exclamation: :exclamation:
 
-Why specify an interpreter:question:
+Why specify an interpreter :question:
 
 For example, many people have both Python2 and Python3 installed on their systems, but 2 and 3 are not compatible.
 
@@ -47,4 +47,4 @@ If no interpreter is specified, you can also be added to the terminal during exe
 python3 hello.py
 ```
 
-In short, the goal is to tell the computer which Python version to use:blush:
+In short, the goal is to tell the computer which Python version to use :blush:

@@ -2,17 +2,17 @@
 
 * [Youtube Tutorial - vcrpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
 
-建議搭配影片服用:smile:
+建議搭配影片服用 :smile:
 
 ## 說明
 
-常常在串接 api 的時候, 有時候對方的 api 很慢, 每測試一次就要等一下:sweat:
+常常在串接 api 的時候, 有時候對方的 api 很慢, 每測試一次就要等一下 :sweat:
 
 雖然我們可以直接把 response 的內容複製下來, 貼到文字檔的文件, 然後
 
-再去讀那個文件檔, 這可能是一種方法, 但有沒有更好的方法呢:question:
+再去讀那個文件檔, 這可能是一種方法, 但有沒有更好的方法呢 :question:
 
-當然有, 就是今天要介紹的 `vcrpy`:smile:
+當然有, 就是今天要介紹的 `vcrpy` :smile:
 
 官方文件可參考 [https://vcrpy.readthedocs.io/en/latest/installation.html](https://vcrpy.readthedocs.io/en/latest/installation.html)
 

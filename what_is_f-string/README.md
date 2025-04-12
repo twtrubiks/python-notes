@@ -1,10 +1,10 @@
-# f-string 字串格式化(python3.6) 是什麼:bulb:
+# f-string 字串格式化(python3.6) 是什麼 :bulb:
 
 [Youtube Tutorial - f-string 字串格式化(python3.6) 是什麼](https://youtu.be/3agdMlpxG-4)
 
 ## %-formatting
 
-這種應該是大家最早接觸 python 會看到的:smirk:
+這種應該是大家最早接觸 python 會看到的 :smirk:
 
 ```python
 >>> 'Hello, %s' % ('World')
@@ -52,7 +52,7 @@ text = "World"
 
 似乎感覺寫起來比較方便:+1:
 
-如果用以前的寫法 ( str.format) 會一大串:sweat_smile:
+如果用以前的寫法 ( str.format) 會一大串 :sweat_smile:
 
 ```python
 >>> import datetime
@@ -106,9 +106,9 @@ import timeit
 
 不過我有時候跑 f-string 和 %-formatting 是差不多的 (很接近)，
 
-不知道是不是和 python 版本有關係:expressionless:
+不知道是不是和 python 版本有關係 :expressionless:
 
-總之，如果 python 都是使用 3.6 以上的，就建議都使用 f-string 吧:smile:
+總之，如果 python 都是使用 3.6 以上的，就建議都使用 f-string 吧 :smile:
 
 ## Template Strings
 

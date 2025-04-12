@@ -8,7 +8,7 @@
 
 [Youtube Tutorial - What is the python decorator - part4](https://youtu.be/79QK-LI-P10)
 
-這篇文章主要會介紹 decorator，一直沒有好好的介紹一下:sweat_smile:
+這篇文章主要會介紹 decorator，一直沒有好好的介紹一下 :sweat_smile:
 
 在開始介紹 decorator 前，要先有一個觀念，就是在 python 中，
 
@@ -62,7 +62,7 @@ f1()
 
 我們能不能把它抽出來 :question: 而這個東西，就是專門處理 logging 的，
 
-答案當然是可以的:smile:
+答案當然是可以的 :smile:
 
 [demo2.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_python_decorator/demo2.py)
 
@@ -87,7 +87,7 @@ my_logging(f1)
 
 也就是說，現在的狀況破壞了原有代碼的結構。
 
-所以更好的方法，就是使用裝飾器 ( 我們終於談到主角了:smile:)
+所以更好的方法，就是使用裝飾器 ( 我們終於談到主角了 :smile:)
 
 來看一個簡單的裝飾器，
 
@@ -218,9 +218,9 @@ f1()
 
 ```
 
-這邊只需要稍微注意一下執行的順序:smile:
+這邊只需要稍微注意一下執行的順序 :smile:
 
-剛剛的 `f1()` 是沒有帶入參數的，今天假如我希望帶入參數呢:question:
+剛剛的 `f1()` 是沒有帶入參數的，今天假如我希望帶入參數呢 :question:
 
 [demo5.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_python_decorator/demo5.py)
 
@@ -247,7 +247,7 @@ def f1(*args, **kwargs):
 f1('twtrubiks', apple='fruit', cabbage='vegetable')
 ```
 
-這樣寫的話，不管 `f1()` 帶入什麼參數都不用擔心:smile:
+這樣寫的話，不管 `f1()` 帶入什麼參數都不用擔心 :smile:
 
 關於 `**kwargs` 和 `*arg` 的範例，可參考 [What is the **kwargs *args](https://youtu.be/UwhbFxLADmE)。
 
@@ -455,7 +455,7 @@ def index():
     pass
 ```
 
-但是你有想過，他是怎麼辦到的嗎:question:
+但是你有想過，他是怎麼辦到的嗎 :question:
 
 其實就是利用了我剛剛說的另外一個特性，用裝飾器來註冊函數。
 
@@ -497,7 +497,7 @@ print('registry:', registry) # <2>
 
 ## 結論
 
-介紹到這邊差不多該告一段落了:relaxed:未來會再補充幾個常用的裝飾器，
+介紹到這邊差不多該告一段落了 :relaxed: 未來會再補充幾個常用的裝飾器，
 
 * property - [What is the property in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_property)
 
@@ -513,7 +513,7 @@ print('registry:', registry) # <2>
 
 ## Donation
 
-如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡 :laughing:
 
 ![alt tag](https://i.imgur.com/LRct9xa.png)
 

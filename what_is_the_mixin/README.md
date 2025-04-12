@@ -23,7 +23,7 @@ if __name__ == '__main__':
 
 那現在需要實作 `__str__`, 但卻又不能去修改 A class 裡面的東西,
 
-這時候該怎麼辦呢:question:
+這時候該怎麼辦呢 :question:
 
 可以使用 Mixin 的方式下去進行擴充, 範例如下
 
@@ -74,7 +74,7 @@ if __name__ == '__main__':
 
 這個範例, 將 A Mixin `StrMixin` 以及 `HelloMixin`,
 
-這樣就同時有 `__str__` 以及 `display` 的功能了:smile:
+這樣就同時有 `__str__` 以及 `display` 的功能了 :smile:
 
 剛剛看了擴充的例子, 現在來看修改(覆寫)的例子,
 

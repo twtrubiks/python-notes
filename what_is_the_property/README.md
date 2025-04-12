@@ -46,9 +46,9 @@ A class 提供幾個方法，分別為 `get_content` 得到資料， `set_conten
 
 雖然看起來沒什麼問題，但就是覺得使用上沒那麼直覺，舉個例子，要得到資料，必須執行
 
-`a.get_content()`，總覺得有點長，能不能更簡單一點:question:
+`a.get_content()`，總覺得有點長，能不能更簡單一點 :question:
 
-可以:smile:
+可以 :smile:
 
 讓我們看改善後的例子，
 
@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 他其實會去 call setter，可以使用中斷點觀察 )。
 
-大家可以再比較 [demo1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo1.py) 以及 [demo2.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo2.py)，看看哪個比較簡便:smirk:
+大家可以再比較 [demo1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo1.py) 以及 [demo2.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo2.py)，看看哪個比較簡便 :smirk:
 
 還有另一種寫法, 參考 [demo2_1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_property/demo2_1.py),
 
@@ -149,7 +149,7 @@ if __name__ == "__main__":
 
 ## Donation
 
-如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡 :laughing:
 
 ![alt tag](https://i.imgur.com/LRct9xa.png)
 

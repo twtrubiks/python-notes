@@ -10,9 +10,9 @@ CAP 的定義分別為，
 * Availability ( 可用性 )
 * Partition tolerance ( 分區容錯 )
 
-( 疑:question: 是不是感覺似曾相識，沒錯，之前也有介紹過一個 [ACID](https://github.com/twtrubiks/django-transactions-tutorial#transaction)，但要注意的是，
+( 疑 :question: 是不是感覺似曾相識，沒錯，之前也有介紹過一個 [ACID](https://github.com/twtrubiks/django-transactions-tutorial#transaction)，但要注意的是，
 
-雖然英文字母一樣，但代表的意思是不一樣的哦:smiley: )
+雖然英文字母一樣，但代表的意思是不一樣的哦 :smiley: )
 
 通常來說，這三個定義不可能同時滿足，如下圖，
 

@@ -260,6 +260,6 @@ if __name__ == '__main__':
     show()
 ```
 
-雖然這種方法，會有 pep8 的警告訊息:sweat_smile:
+雖然這種方法，會有 pep8 的警告訊息 :sweat_smile:
 
 最後一種方法就是好好思考你的架構，或許說你本來就將不該拆開的部分拆開了，所以才導致 circular import。

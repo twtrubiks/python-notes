@@ -64,11 +64,11 @@ b.action1()
 b.action2()
 ```
 
-一般來說, 這樣使用沒甚麼問題, 但有沒有更嚴謹的使用方式呢:question:
+一般來說, 這樣使用沒甚麼問題, 但有沒有更嚴謹的使用方式呢 :question:
 
 有沒有在實例化的時候就去檢查是否都有正確實作了, 而不是等到去呼叫時, 才發現沒有實作.
 
-答案是有的:smile: 透過 abstractmethod,
+答案是有的 :smile: 透過 abstractmethod,
 
 請看 [demo2.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_abstractmethod/demo2.py)
 
@@ -126,7 +126,7 @@ class A(abc.ABC):
 
 錯誤訊息說的很清楚, 你必須實作 abstract methods.
 
-修正方法很簡單, 就把有加上 `@abc.abstractmethod` 的部份實作好即可:smile:
+修正方法很簡單, 就把有加上 `@abc.abstractmethod` 的部份實作好即可 :smile:
 
 修正後如下 [demo2_fix.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_abstractmethod/demo2_fix.py)
 
@@ -159,11 +159,11 @@ b.action2()
 
 ```
 
-這樣子可能有人會問, `abstractmethod` 可以搭配 `staticmethod` 和 `classmethod` 使用嗎:question:
+這樣子可能有人會問, `abstractmethod` 可以搭配 `staticmethod` 和 `classmethod` 使用嗎 :question:
 
 [介紹 classmethod and staticmethod in python](https://github.com/twtrubiks/python-notes/tree/master/what_is_classmethod_and_staticmethod)
 
-是可以的:smile:
+是可以的 :smile:
 
 請參考 [demo3.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_abstractmethod/demo3.py)
 
@@ -214,6 +214,6 @@ B.action2('x2', 'y2').display()
 
 ```
 
-請注意裝飾器的堆疊順序, 很重要:exclamation::exclamation: `@abc.abstractmethod` 需要放在最內層.
+請注意裝飾器的堆疊順序, 很重要 :exclamation: :exclamation: `@abc.abstractmethod` 需要放在最內層.
 
 因為裝飾器是一層包一層的, 可參考之前的文章 [介紹 python decorator](https://github.com/twtrubiks/python-notes/tree/master/what_is_the_python_decorator).

@@ -101,7 +101,7 @@ run test_case3
 PASSEDteardown...
 ```
 
-但是在 pytest 中, 有更好的方法可以取代掉這種比較舊的寫法:smile: (後面會介紹到)
+但是在 pytest 中, 有更好的方法可以取代掉這種比較舊的寫法 :smile: (後面會介紹到)
 
 [demo3_test.py](demo3_test.py) `fixture` 這個方法主要是用來改善 `setup/teardown` 這樣的架構,
 

@@ -9,7 +9,7 @@ if __name__ == '__main__':
     pass
 ```
 
-而且，好像有他沒他也沒什麼影響，今天我就來介紹他到底是什麼東東:bulb:
+而且，好像有他沒他也沒什麼影響，今天我就來介紹他到底是什麼東東 :bulb:
 
 直接來看一個例子，[demo1.py](demo1.py)
 
@@ -55,7 +55,7 @@ demo2.py is called
 hello a1_func
 ```
 
-為什麼會這樣呢:question:
+為什麼會這樣呢 :question:
 
 原因是因為當 module 載入時 ( `from demo1 import a1_func` )，python 中的 interpreter 會
 
@@ -101,11 +101,9 @@ hello a1_func
 
 因為有時候程式可能會同時需要被單獨執行 ( 自己本身的功能或是跑測試 ) 以及被 import module 的方式。
 
-這邊可以再延伸閱讀 [Package - 等待新增](xxx)。
-
 ## Donation
 
-如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡:laughing:
+如果有幫助到您，也想鼓勵我的話，歡迎請我喝一杯咖啡 :laughing:
 
 ![alt tag](https://i.imgur.com/LRct9xa.png)
 

@@ -107,7 +107,7 @@ print(pd_pivot_table['sum']['total'])
 |   c   |   1  |  0  |    1   |  2  |
 |  All  |   5  |  4  |    1   |  10 |
 
-基本上到這邊就完成了:relieved:
+基本上到這邊就完成了 :relieved:
 
 下方我要介紹的是假設前端需要這個表格的資料，
 

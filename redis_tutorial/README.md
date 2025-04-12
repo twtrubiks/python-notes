@@ -4,7 +4,7 @@
 
 很久前在 [django-docker-redis-tutorial 基本教學](https://github.com/twtrubiks/django-docker-redis-tutorial) 這篇文章有說明過,
 
-但想要再寫一篇:smile:
+但想要再寫一篇 :smile:
 
 附上 redis [docker-compose.yml](https://github.com/twtrubiks/python-notes/blob/master/redis_tutorial/docker-compose.yml)
 

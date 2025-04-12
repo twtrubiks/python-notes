@@ -6,7 +6,7 @@
 
 ## commitizen
 
-commitizen 簡單說就是規格化 commit, 不然大家 commit 都亂打:sweat_smile:
+commitizen 簡單說就是規格化 commit, 不然大家 commit 都亂打 :sweat_smile:
 
 文件可參考 [commitizen](https://github.com/commitizen-tools/commitizen)
 
@@ -102,7 +102,7 @@ Install the git hook scripts
 
 而是用一般的 commit 時, 就會跳出錯誤提醒你
 
-( 第一次會慢一點, 之後就會很快了:smile: )
+( 第一次會慢一點, 之後就會很快了 :smile: )
 
 ![img](https://i.imgur.com/I7vL7KT.png)
 

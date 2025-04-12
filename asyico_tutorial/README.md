@@ -30,7 +30,7 @@ pip install asyncio
 
 來看透過 asyncio 非同步(異步) 的 [demo1_async_1.py](https://github.com/twtrubiks/python-notes/blob/master/asyico_tutorial/demo1_async_1.py)
 
-你會發現同樣的事情, 只需要2秒就執行完了:exclamation::exclamation:
+你會發現同樣的事情, 只需要2秒就執行完了 :exclamation: :exclamation:
 
 但沒有像同步這樣按照順序一個一個執行(包含結果).
 
@@ -57,7 +57,7 @@ async def something(num):
 
 而 `await` 這個地方就是可以暫停或繼續的點, 當有 IO-bound 需要等待的時候,
 
-就先去執行其他的東西, 等收到事件後, 再回來執行, 至於它是如何做到暫停繼續的:question:
+就先去執行其他的東西, 等收到事件後, 再回來執行, 至於它是如何做到暫停繼續的 :question:
 
 背後就是透過 yield 實做的.
 

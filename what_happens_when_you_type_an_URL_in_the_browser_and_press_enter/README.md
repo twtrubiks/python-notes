@@ -2,7 +2,7 @@
 
 [Youtube Tutorial - What happens when you type an URL in the browser and press enter](https://youtu.be/PDR-fIooaLE)
 
-當我們在瀏覽器上輸入網址並且按下 enter 之後， 到底發生了什麼事情:question:
+當我們在瀏覽器上輸入網址並且按下 enter 之後， 到底發生了什麼事情 :question:
 
 這邊我們一步一步來說明，
 
@@ -14,7 +14,7 @@ browser 會先查看目前的 URL 是否有在快取之中以及快取是否有�
 
 這邊假設沒有快取，所以我們必須再向 server 請求，而向 server 請求的這個過程中，就會牽扯
 
-到 DNS 域名解析、TCP 連接建立之類的，我將會按照順序帶大家了解:smiley:
+到 DNS 域名解析、TCP 連接建立之類的，我將會按照順序帶大家了解 :smiley:
 
 * DNS ( Domain Name System ) 域名解析
 

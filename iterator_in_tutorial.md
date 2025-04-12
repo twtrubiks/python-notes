@@ -34,7 +34,7 @@ print(list(var_iter))
 # -> 可以看到 in 也會消費 iterator
 ```
 
-如果今天我們多加幾個 in 呢:question:
+如果今天我們多加幾個 in 呢 :question:
 
 ```python
 s1 = 'apple'
@@ -51,7 +51,7 @@ print(list(var_iter))
 # 所以輸出只有 'e' ('l' 為倒數第2個)
 ```
 
-上面的例子都是有找到, 如果沒有找到呢:question:
+上面的例子都是有找到, 如果沒有找到呢 :question:
 
 ```python
 s1 = 'apple'
