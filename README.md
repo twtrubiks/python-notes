@@ -387,6 +387,8 @@ pipx list
 
 [pip-tools_tutorial](pip-tools_tutorial) - 幫你管理依賴套件的版本
 
+[uv](uv_tutorial) - 超快的套件管理工具.
+
 ## 如何使用
 
 基本上，每個 python 檔案都可以直接執行。
