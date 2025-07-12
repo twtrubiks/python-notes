@@ -340,7 +340,6 @@ Python Notes 學習筆記 📝
 
 [graph](https://github.com/twtrubiks/python-notes/tree/master/graph)
 
-
 ## tools
 
 [vcr-tutorial](vcr-tutorial) - [Youtube Tutorial - vcrpy 介紹教學 - 輕鬆把 request 錄下來](https://youtu.be/LrAxl5vfXJ4)
@@ -383,9 +382,11 @@ pipx list
 
 使用方法很簡單, `pip-audit --fix` 直接幫你更新有問題的 packages.
 
-[pyenv](pyenv_tutorial) - 更好用的 python 管理虛擬環境工具(管理多版本)
+[pyenv](pyenv_tutorial) - 更好用的 python 管理虛擬環境工具(管理多版本) - [Streamlit 教學, 搭配 Pyenv, UV 高效開發](https://youtu.be/cH1pb_o7EPA)
 
 [pip-tools_tutorial](pip-tools_tutorial) - 幫你管理依賴套件的版本
+
+[uv](uv_tutorial) - 超快的套件管理工具. - [Youtube Tutorial - Streamlit 教學, 搭配 Pyenv, UV 高效開發](https://youtu.be/cH1pb_o7EPA)
 
 ## 如何使用
 

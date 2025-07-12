@@ -1,5 +1,7 @@
 # pyenv 教學
 
+- [Youtube Tutorial - Streamlit 教學, 搭配 Pyenv, UV 高效開發](https://youtu.be/cH1pb_o7EPA)
+
 之前介紹過建立虛擬環境
 
 [如何使用 venv 建立 virtual environments 📝](https://github.com/twtrubiks/python-creation-of-virtual-environments)
@@ -12,10 +14,10 @@
 
 安裝方法
 
-[Automatic installer](https://github.com/pyenv/pyenv#automatic-installer)
+[Automatic installer](https://github.com/pyenv/pyenv?tab=readme-ov-file#linuxunix)
 
 ```cmd
-curl https://pyenv.run | bash
+curl -fsSL https://pyenv.run | bash
 ```
 
 安裝完應該會出現
@@ -24,12 +26,12 @@ curl https://pyenv.run | bash
 
 然後我是使用 zsh (所以跟著底下設定)
 
-[Set up your shell environment for Pyenv](https://github.com/pyenv/pyenv#set-up-your-shell-environment-for-pyenv)
+[Set up your shell environment for Pyenv](https://github.com/pyenv/pyenv?tab=readme-ov-file#zsh)
 
 ```cmd
 echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
-echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
-echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+echo '[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+echo 'eval "$(pyenv init - zsh)"' >> ~/.zshrc
 ```
 
 接著重開 zsh 輸入 `pyenv` 就不會跳出任何錯誤訊息了
@@ -42,10 +44,22 @@ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
 pyenv install --list
 ```
 
-這邊選擇 `3.9.18`, 所以先安裝 python 版本
+這邊選擇 `3.12.3`, 所以先安裝 python 版本
 
 ```cmd
-pyenv install 3.9.18
+pyenv install 3.12.3
+```
+
+查看目前全部已經安裝的 python 版本
+
+```cmd
+pyenv versions
+```
+
+如果想要移除安裝的 python 版本
+
+```cmd
+pyenv uninstall 3.12.0
 ```
 
 💢 開始建立環境前,
@@ -58,24 +72,23 @@ pyenv install 3.9.18
 
 ```cmd
 sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \
-libbz2-dev libreadline-dev libsqlite3-dev curl \
+libbz2-dev libreadline-dev libsqlite3-dev curl git \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
 ```
 
 接著建立環境
 
 ```cmd
-pyenv virtualenv 3.9.18 test_env
+pyenv virtualenv 3.12.3 test_env
 ```
 
 啟動你的環境
+
 ```cmd
 pyenv activate test_env
 ```
 
-生效作用範圍有 `shell` > `local` > `global` 可以使用,
-
-可參考 [understanding-python-version-selection](https://github.com/pyenv/pyenv?tab=readme-ov-file#understanding-python-version-selection)
+生效作用範圍有 `shell` > `local` > `global` 可以使用 (可參考 [understanding-python-version-selection](https://github.com/pyenv/pyenv?tab=readme-ov-file#understanding-python-version-selection))
 
 在目前的 shell 生效, 退出就消失了
 
@@ -83,7 +96,9 @@ pyenv activate test_env
 pyenv shell <version>
 ```
 
-在當前的資料夾底下生效, 執行後目錄會多出 `.python-version` 這個檔案,
+如果你想搭配 vscode 使用, 直接使用這個方法會比較快.
+
+執行後目錄會多出 `.python-version` 這個檔案 (在當前的資料夾底下生效),
 
 ```cmd
 pyenv local <version> -- automatically select whenever you are in the current directory (or its subdirectories),
@@ -119,7 +134,7 @@ pyenv virtualenvs
 刪除一個 venv
 
 ```cmd
-pyenv uninstall test_env
+pyenv virtualenv-delete test_env
 ```
 
 ## Reference
