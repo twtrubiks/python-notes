@@ -292,6 +292,8 @@ Python Notes 學習筆記 📝
 
 [cachetools_tutorial.py](https://github.com/twtrubiks/python-notes/tree/master/cachetools_tutorial.py) - cachetools 教學
 
+[difflib_tutorial](https://github.com/twtrubiks/python-notes/tree/master/difflib_tutorial) - difflib 教學, 比較文字差異, 相似度, 模糊匹配
+
 ## 觀念
 
 [python_circular_import](https://github.com/twtrubiks/python-notes/tree/master/python_circular_import) - [youtube tutorial - What is Python Circular Imports](https://youtu.be/RQhN24QtDAE)

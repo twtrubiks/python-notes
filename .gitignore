@@ -88,3 +88,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# difflib_tutorial 產生的檔案
+difflib_tutorial/diff.html
