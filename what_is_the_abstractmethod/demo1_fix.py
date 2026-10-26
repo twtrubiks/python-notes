@@ -1,10 +1,10 @@
 class A:
 
     def action1(self):
-        raise NotImplemented
+        raise NotImplementedError
 
     def action2(self):
-        raise NotImplemented
+        raise NotImplementedError
 
 class B(A):
     def action1(self):

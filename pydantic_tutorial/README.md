@@ -11,7 +11,7 @@
 安裝
 
 ```cmd
-pip install pydantic==2.9.1
+pip install pydantic==2.14.1
 ```
 
 [官網文件](https://docs.pydantic.dev/latest/) 寫的非常豐富,
@@ -29,6 +29,8 @@ pip install pydantic==2.9.1
 - [Type Adapter](#type-adapter)
 
 - [Performance](#performance)
+
+- [延伸閱讀](#延伸閱讀)
 
 # 教學
 
@@ -735,3 +737,7 @@ print(repr(user_list_adapter.dump_json(user_list)))
 ## Performance
 
 可參考 [Performance tips](https://docs.pydantic.dev/latest/concepts/performance/)
+
+## 延伸閱讀
+
+* [pydantic-ai-tutorial](https://github.com/twtrubiks/pydantic-ai-tutorial) - pydantic-ai 介紹教學

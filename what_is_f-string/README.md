@@ -168,7 +168,7 @@ print(output)
 
 ## 執行環境
 
-* Python 3.6.6
+* Python 3.13
 
 ## Reference
 

@@ -18,11 +18,9 @@ Thread or Asyncio 可以認為是 Concurrency, 而 Process 可以當成 Parallel
 
 ## 教學
 
-安裝指令
+asyncio 從 Python 3.4 開始就是內建的標準函式庫, 不需要另外安裝.
 
-```cmd
-pip install asyncio
-```
+( PyPI 上的 `asyncio` 是給 Python 3.3 用的舊 backport, 已停止維護, 請不要 `pip install asyncio` )
 
 先來看一個例子 [demo1_sync.py](https://github.com/twtrubiks/python-notes/blob/master/asyico_tutorial/demo1_sync.py)
 
@@ -97,7 +95,7 @@ async def something(num):
 
 ## 執行環境
 
-* Python 3.8
+* Python 3.13
 
 ## Reference
 

@@ -190,8 +190,6 @@ Python Notes 學習筆記 📝
 
 [groupby_tutorial_find_consecutive numbers.py](https://github.com/twtrubiks/python-notes/blob/master/groupby_tutorial_find_consecutive_numbers.py) - find consecutive numbers in list by groupby tutorial
 
-[python-decouple-tutorial](https://github.com/twtrubiks/python-notes/tree/master/python-decouple-tutorial) - python decouple tutorial
-
 [dj_database_url_tutorial](https://github.com/twtrubiks/python-notes/tree/master/dj_database_url_tutorial) - dj-database-url tutorial ( for django )
 
 [pandas_tutorial](https://github.com/twtrubiks/python-notes/tree/master/pandas_tutorial) - pandas tutorial
@@ -330,6 +328,8 @@ Python Notes 學習筆記 📝
 
 [pydantic_tutorial](pydantic_tutorial) - pydantic 介紹
 
+[pydantic-ai-tutorial](https://github.com/twtrubiks/pydantic-ai-tutorial) - pydantic-ai 介紹教學
+
 ## other
 
 [fibonacci numbers tutorial](fibonacci_numbers_tutorial)
@@ -365,7 +365,7 @@ Python Notes 學習筆記 📝
 指定 python 版本
 
 ```cmd
-pipx install --python python3.8 flake8
+pipx install --python python3.13 flake8
 ```
 
 查看目前安裝套件
@@ -401,7 +401,7 @@ pipx list
 
 ## 執行環境
 
-* Python 3.9
+* Python 3.13
 
 ## Reference
 

@@ -1,6 +1,6 @@
 # dj-database-url-tutorial
 
-簡單介紹一個套件， 名稱為 [dj-database-url](https://github.com/kennethreitz/dj-database-url)，
+簡單介紹一個套件， 名稱為 [dj-database-url](https://github.com/jazzband/dj-database-url)，
 
 主要功能：**簡化 django db 連線字串設定**。
 
@@ -29,8 +29,8 @@ DATABASES = {
 }
 ```
 
-註解的部份是原來的寫法，其他資料庫的連接方式請參考 [dj-database-url](https://github.com/kennethreitz/dj-database-url)。
+註解的部份是原來的寫法，其他資料庫的連接方式請參考 [dj-database-url](https://github.com/jazzband/dj-database-url)。
 
 ## 執行環境
 
-* Python 3.4.3
+* Python 3.13

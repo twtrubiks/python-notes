@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""
+r"""
      F
    /   \
   B     G

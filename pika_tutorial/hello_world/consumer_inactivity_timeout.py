@@ -1,7 +1,8 @@
 from mq_connection import connection, channel
 import time
 
-channel.queue_declare(queue="hello")
+# RabbitMQ 4.x 起不允許非 durable 且非 exclusive 的 queue, 所以要加上 durable=True
+channel.queue_declare(queue="hello", durable=True)
 
 
 def callback(ch, method, properties, body):

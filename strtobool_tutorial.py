@@ -1,4 +1,12 @@
-from distutils.util import strtobool
+# distutils 在 Python 3.12 已被移除 (PEP 632), 所以自己實作 strtobool
+def strtobool(val):
+    val = val.lower()
+    if val in ("y", "yes", "t", "true", "on", "1"):
+        return 1
+    if val in ("n", "no", "f", "false", "off", "0"):
+        return 0
+    raise ValueError(f"invalid truth value {val!r}")
+
 
 if __name__ == "__main__":
     # Convert String to Boolean

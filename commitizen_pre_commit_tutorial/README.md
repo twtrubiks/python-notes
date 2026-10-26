@@ -49,31 +49,31 @@ pip install pre-commit
 ```yaml
 repos:
   - repo: https://github.com/commitizen-tools/commitizen
-    rev: v3.29.0
+    rev: v4.19.3
     hooks:
       - id: commitizen
       - id: commitizen-branch
         stages: [commit-msg]
 
   - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v4.6.0
+    rev: v6.0.0
     hooks:
     -   id: check-yaml
     -   id: end-of-file-fixer
     -   id: trailing-whitespace
 
-  - repo: https://github.com/python/black
-    rev: 24.8.0
+  - repo: https://github.com/psf/black
+    rev: 26.10.1
     hooks:
       - id: black
 
   - repo: https://github.com/pycqa/flake8
-    rev: 7.1.1
+    rev: 7.4.1
     hooks:
       - id: flake8
 
   - repo: https://github.com/crate-ci/typos
-    rev: v1.24.6
+    rev: v1.51.1
     hooks:
       - id: typos
 ```

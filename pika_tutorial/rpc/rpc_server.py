@@ -3,7 +3,8 @@ import pika
 import random
 from mq_connection import connection, channel
 
-channel.queue_declare(queue="rpc_queue")
+# RabbitMQ 4.x 起不允許非 durable 且非 exclusive 的 queue, 所以要加上 durable=True
+channel.queue_declare(queue="rpc_queue", durable=True)
 
 
 def fib(n):

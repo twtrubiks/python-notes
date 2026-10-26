@@ -16,10 +16,10 @@ Abstract Base Class 又簡稱 ABC.
 class A:
 
     def action1(self):
-        raise NotImplemented
+        raise NotImplementedError
 
     def action2(self):
-        raise NotImplemented
+        raise NotImplementedError
 
 class B(A):
     pass
@@ -30,12 +30,12 @@ b = B()
 # (這句話可以先忽略, 因為你看到後面就會懂了)
 
 b.action1()
-# raise NotImplemented
+# raise NotImplementedError
 ```
 
 當你執行 [demo1.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_abstractmethod/demo1.py) 的時候, 可以成功的實例化 b,
 
-但執行到 `b.action1()` 會跳出 `raise NotImplemented` 錯誤.
+但執行到 `b.action1()` 會跳出 `raise NotImplementedError` 錯誤.
 
 修正方法很簡單, 就是把他實作即可, 請參考 [demo1_fix.py](https://github.com/twtrubiks/python-notes/blob/master/what_is_the_abstractmethod/demo1_fix.py)
 
@@ -43,10 +43,10 @@ b.action1()
 class A:
 
     def action1(self):
-        raise NotImplemented
+        raise NotImplementedError
 
     def action2(self):
-        raise NotImplemented
+        raise NotImplementedError
 
 class B(A):
     def action1(self):

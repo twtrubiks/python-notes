@@ -13,10 +13,13 @@ if __name__ == "__main__":
     math.fsum(iterable)
     ref. https://docs.python.org/3/library/math.html#math.fsum
     '''
-    f_number = [0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01, 0.01]
-    print('sum(f_number):', sum(f_number))
+    # Python 3.12 起 sum() 對浮點數改用補償求和 (compensated summation),
+    # 像 [0.01] * 10 這種情況 sum() 也能得到 0.1 了 (3.11 之前是 0.09999999999999999),
+    # 所以這邊改用比較極端的數值 (取自 CPython math.fsum 的測試案例) 才看得出差異
+    f_number = [1e100, 1.0, -1e100, 1e-100, 1e50, -1.0, -1e50]
+    print('sum(f_number):', sum(f_number))  # 0.0
     #  Avoids loss of precision by tracking multiple intermediate partial sums
-    print('math.fsum(f_number):', math.fsum(f_number))
+    print('math.fsum(f_number):', math.fsum(f_number))  # 1e-100
 
     seq_obj = [
         {

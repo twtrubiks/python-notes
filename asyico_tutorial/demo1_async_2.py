@@ -16,7 +16,8 @@ async def something(num):
     print('第 {} 任務，第二步'.format(num))
 
 async def main():
-    tasks = [something(i) for i in range(5)]
+    # Python 3.11 起 asyncio.wait() 不接受 coroutine, 必須先用 create_task() 包成 task
+    tasks = [asyncio.create_task(something(i)) for i in range(5)]
     await asyncio.wait(tasks)
 
 if __name__ == "__main__":

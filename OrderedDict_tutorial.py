@@ -32,8 +32,8 @@ if __name__ == "__main__":
     # last=True   -> The item is moved to the right end
     # last=False  -> The item is moved to the beginning
 
-    print('origin:', order_dic) # OrderedDict([('b', 'B'), ('c', 'C'), ('d', 'D')])
+    print('origin:', order_dic) # OrderedDict({'b': 'B', 'c': 'C', 'd': 'D'})
     order_dic.move_to_end('b', last=True)
-    print(order_dic) # OrderedDict([('c', 'C'), ('d', 'D'), ('b', 'B')])
+    print(order_dic) # OrderedDict({'c': 'C', 'd': 'D', 'b': 'B'})
     order_dic.move_to_end('b', last=False)
-    print(order_dic) # OrderedDict([('b', 'B'), ('c', 'C'), ('d', 'D')])
+    print(order_dic) # OrderedDict({'b': 'B', 'c': 'C', 'd': 'D'})

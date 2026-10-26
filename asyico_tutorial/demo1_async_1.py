@@ -17,7 +17,15 @@ async def something(num):
 
 if __name__ == "__main__":
     start = time.time()
-    tasks = [something(i) for i in range(5)]
-    asyncio.run(asyncio.wait(tasks))
+    # Python 3.11 之前可以直接把 coroutine 丟給 asyncio.wait()
+    # tasks = [something(i) for i in range(5)]
+    # asyncio.run(asyncio.wait(tasks))
+
+    # Python 3.11 起 asyncio.wait() 只接受 task, 而 task 必須在 event loop 中建立,
+    # 所以透過 asyncio.Runner() 取得 event loop 再建立 task
+    # (比較簡單的寫法是把 main() 抽出來, 請參考 demo1_async_2.py)
+    with asyncio.Runner() as runner:
+        tasks = [runner.get_loop().create_task(something(i)) for i in range(5)]
+        runner.run(asyncio.wait(tasks))
     print('TIME: ', time.time() - start)
 

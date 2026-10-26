@@ -49,7 +49,7 @@ pip install aiohttp
 
 ## 執行環境
 
-* Python 3.8
+* Python 3.13
 
 ## Reference
 

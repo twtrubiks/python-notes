@@ -9,7 +9,7 @@ def main():
 print("daemon Thread")
 t1 = threading.Thread(target=main, daemon=True)
 t1.start()
-print("isDaemon:", t1.isDaemon())
+print("daemon:", t1.daemon)
 
 time.sleep(5)
 print('main thread quit')

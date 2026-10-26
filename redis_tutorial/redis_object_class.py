@@ -51,7 +51,7 @@ def test_update_stock_obj():
 
 
 stock = init()
-stocksave_obj_to_redis(stock)
+save_obj_to_redis(stock)
 get_obj_from_redis()
 
 # test_update_stock_obj()
